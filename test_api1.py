@@ -12,24 +12,20 @@ app.config["DEBUG"] = True
 
 @app.route('/', methods=['GET'])
 def home():
-    return "<h1>API</h1><p>Test Api</p>"
+	return "<h1>API</h1><p>Test Api</p>"
 
 @app.route('/api', methods=['GET'])
 def addjd():
-    if 'questions' in request.args:
+	if 'questions' in request.args:
 		b = str(request.args['questions'])
 		print("success" + " " +b)
 		return "success" + " " + b
-    else:
-        return "false"
+	else:
+		return "false"
 
 if __name__ == '__main__':
-    
-    import logging
-    logging.basicConfig(filename='error.log',level=logging.DEBUG)
-
-    port = int(os.getenv('PORT', 5000))
-
-    print("Starting app on port %d" % port)
-
-    app.run(debug=True, port=port, host='0.0.0.0')
+	import logging
+	logging.basicConfig(filename='error.log',level=logging.DEBUG)
+	port = int(os.getenv('PORT', 5000))
+	print("Starting app on port %d" % port)
+	app.run(debug=True, port=port, host='0.0.0.0')
