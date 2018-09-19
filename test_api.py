@@ -21,19 +21,9 @@ def home():
 @app.route('/api', methods=['GET'])
 def addjd():
     if 'questions' in request.args:
-		#b = request.get('id')
-		#c = request.get('skill')
-		#df = pd.read_excel("C:/Users/css114121/Desktop/Sanofi/JD.xlsx")
-		#df1= pd.DataFrame([[b,c]],columns=['JD ID','Skill name'])
-		#df = df.append(df1)
-		#df.to_excel("C:/Users/css114121/Desktop/Sanofi/JD.xlsx",index=False)
-		b = str(request.args['questions'])
-		#d = json.loads(b)
-		#print(d)
-		#c = str(d[0]["id"])
-		#print(c)
-		print("success" + b)
-		return "success" + " " + b
+	b = str(request.args['questions'])
+	print("success" + b)
+	return "success" + " " + b
     else:
         return "false"
 app.run()
