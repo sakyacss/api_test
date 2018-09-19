@@ -20,10 +20,10 @@ def home():
 
 @app.route('/api', methods=['GET'])
 def addjd():
-    if 'questions' in request.args:
-	b = str(request.args['questions'])
-	print("success" + b)
-	return "success" + " " + b
-    else:
-        return "false"
+	if 'questions' in request.args:
+		b = str(request.args['questions'])
+		print("success" + b)
+		return "success" + " " + b
+	else:
+		return "false"
 app.run()
