@@ -2,7 +2,6 @@ from __future__ import print_function
 import flask
 from flask import request, jsonify
 import re, math
-import pandas as pd
 import json
 import os
 
