@@ -5,7 +5,7 @@ import re, math
 #from collections import Counter
 #from google.cloud import bigquery
 #from google.oauth2 import service_account
-import pandas as pd
+#import pandas as pd
 #from pandas.io import gbq
 import json
 import os
