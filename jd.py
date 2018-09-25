@@ -2,6 +2,7 @@ from __future__ import print_function
 import flask
 from flask import request, jsonify
 import re, math
+from flask_cors import CORS
 #from collections import Counter
 #from google.cloud import bigquery
 #from google.oauth2 import service_account
@@ -11,6 +12,7 @@ import json
 import os
 
 app = flask.Flask(__name__)
+CORS(app)
 app.config["DEBUG"] = True
 
 @app.route('/', methods=['GET'])
