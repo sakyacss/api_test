@@ -25,46 +25,46 @@ def home():
 def addjd():
                
     a= [{
-"JD Name": ".Net",
+"JD_Name": ".Net",
 "ID":1001,
-"No of Position":200,
-"Skill Sets":".Net",
-"Created Date":"10-8-2018",
-"Received profile":100,
-"Interview completed":50,
-"Yet to schedule":50 
+"No_of_Position":200,
+"Skill_Sets":".Net",
+"Created_Date":"10-8-2018",
+"Received_profile":100,
+"Interview_completed":50,
+"Yet_to_schedule":50 
 },
 
 {
-"JD Name": "C#",
+"JD_Name": "C#",
 "ID":1002,
-"No of Position":200,
-"Skill Sets":"C#",
-"Created Date":"12-8-2018",
-"Received profile":120,
-"Interview completed":50,
-"Yet to schedule":70 
+"No_of_Position":200,
+"Skill_Sets":"C#",
+"Created_Date":"12-8-2018",
+"Received_profile":120,
+"Interview_completed":50,
+"Yet_to_schedule":70 
 },
 
 {
-"JD Name": "Big Data",
+"JD_Name": "Big Data",
 "ID":1003,
-"No of Position":100,
-"Skill Sets":"Hadoop,Spark,Scala",
-"Created Date":"12-8-2018",
-"Received profile":80,
-"Interview completed":50,
-"Yet to schedule":30 
+"No_of_Position":100,
+"Skill_Sets":"Hadoop,Spark,Scala",
+"Created_Date":"12-8-2018",
+"Received_profile":80,
+"Interview_completed":50,
+"Yet_to_schedule":30 
 },
 {
-"JD Name": "UI Developer",
+"JD_Name": "UI Developer",
 "ID":1004,
-"No of Position":50,
-"Skill Sets":"Angular,Nodejs",
-"Created Date":"16-8-2018",
-"Received profile":40,
-"Interview completed":10,
-"Yet to schedule":30}
+"No_of_Position":50,
+"Skill_Sets":"Angular,Nodejs",
+"Created_Date":"16-8-2018",
+"Received_profile":40,
+"Interview_completed":10,
+"Yet_to_schedule":30}
 ]
 
     
@@ -97,35 +97,35 @@ def viewjd():
     b= [{
 "ID":1001,
 "Name":"Sakya Maiti",
-"Phone No": 1234567890,
+"Phone_No": 1234567890,
 "Profile":"www.google.com",
 "Exp":8,
-"Int Stage":"L0",
+"Int_Stage":"L0",
 },
 {
 "ID":1001,
 "Name":"Varun Anant",
-"Phone No": 1234567890,
+"Phone_No": 1234567890,
 "Profile":"www.google.com",
 "Exp":5,
-"Int Stage":"L1",
+"Int_Stage":"L1",
 },
 
 {
 "ID":1002,
 "Name":"Abhishek",
-"Phone No": 1234567890,
+"Phone_No": 1234567890,
 "Profile":"www.google.com",
 "Exp":2,
-"Int Stage":"Selected",
+"Int_Stage":"Selected",
 },
 {
 "ID":1002,
 "Name":"Kamal",
-"Phone No": 1234567890,
+"Phone_No": 1234567890,
 "Profile":"www.google.com",
 "Exp":2,
-"Int Stage":"Complete",
+"Int_Stage":"Complete",
 }]
     return jsonify(data = b)
 	
