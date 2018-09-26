@@ -97,6 +97,7 @@ def viewjd():
     b= [{
 "ID":1001,
 "Name":"Sakya Maiti",
+"Email":sakya@gmail.com
 "Phone_No": 1234567890,
 "Profile":"www.google.com",
 "Exp":8,
@@ -105,6 +106,7 @@ def viewjd():
 {
 "ID":1001,
 "Name":"Varun Anant",
+"Email":varun@gmail.com
 "Phone_No": 1234567890,
 "Profile":"www.google.com",
 "Exp":5,
@@ -114,6 +116,7 @@ def viewjd():
 {
 "ID":1002,
 "Name":"Abhishek",
+"Email":abhi@gmail.com
 "Phone_No": 1234567890,
 "Profile":"www.google.com",
 "Exp":2,
@@ -122,6 +125,7 @@ def viewjd():
 {
 "ID":1002,
 "Name":"Kamal",
+"Email":kamal@gmail.com
 "Phone_No": 1234567890,
 "Profile":"www.google.com",
 "Exp":2,
