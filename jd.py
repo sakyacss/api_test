@@ -132,6 +132,18 @@ def viewjd():
 "Int_Stage":"Complete",
 }]
     return jsonify(data = b)
+
+# Add new Profile
+@app.route('/newprof', methods=['GET'])
+def newprof():
+	a = eval(request.args['questions'])
+	JD_ID = a["JD_ID"]
+	First_Name = a['First_Name']
+	Last_Name = a['Last_Name']
+	Email  = a['Email']
+	Phone_No = a['Phone_No']
+	op = randint(1005,1100)
+	return jsonify(data = op)
 	
 if __name__ == '__main__':
 	import logging
