@@ -95,7 +95,11 @@ def viewjd():
     a = eval(request.args['questions'])
                
     b= [{
+"JD_Name": ".Net",
 "ID":1001,
+"No_of_Position":200,
+"Created_Date":"10-8-2018",
+"Prof_ID":123,
 "Name":"Sakya Maiti",
 "Email":"sakya@gmail.com",
 "Phone_No": 1234567890,
@@ -104,7 +108,11 @@ def viewjd():
 "Int_Stage":"L0",
 },
 {
+"JD_Name": ".Net",
 "ID":1001,
+"No_of_Position":200,
+"Created_Date":"10-8-2018",
+"Prof_ID":124,
 "Name":"Varun Anant",
 "Email":"varun@gmail.com",
 "Phone_No": 1234567890,
@@ -114,7 +122,11 @@ def viewjd():
 },
 
 {
-"ID":1002,
+"JD_Name": ".Net",
+"ID":1001,
+"No_of_Position":200,
+"Created_Date":"10-8-2018",
+"Prof_ID":125,
 "Name":"Abhishek",
 "Email":"abhi@gmail.com",
 "Phone_No": 1234567890,
@@ -123,7 +135,11 @@ def viewjd():
 "Int_Stage":"Selected",
 },
 {
-"ID":1002,
+"JD_Name": ".Net",
+"ID":1001,
+"No_of_Position":200,
+"Created_Date":"10-8-2018",
+"Prof_ID":126,
 "Name":"Kamal",
 "Email":"kamal@gmail.com",
 "Phone_No": 1234567890,
@@ -132,7 +148,7 @@ def viewjd():
 "Int_Stage":"Complete",
 }]
     return jsonify(data = b)
-
+	
 # Add new Profile
 @app.route('/newprof', methods=['GET'])
 def newprof():
@@ -151,4 +167,3 @@ if __name__ == '__main__':
 	port = int(os.getenv('PORT', 5000))
 	print("Starting app on port %d" % port)
 	app.run(debug=True, port=port, host='0.0.0.0')
-
