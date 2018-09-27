@@ -237,7 +237,7 @@ def newprof():
 	Phone_No = a['Phone_No']
 	op = randint(1005,1100)
 	with open("new_prof.json","a") as outfile:
-		json.dump(comments,outfile)
+		json.dump(a,outfile)
 	return jsonify(data = op)
 	
 if __name__ == '__main__':
