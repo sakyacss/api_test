@@ -218,10 +218,10 @@ def viewjd():
 	i = 0
 	a=[]
 	for i in range(0,len(b)):
-		
 		if b[i]["Jd_Id"] == str(request.args['questions']):
 			a.append(b[i])
-			
+		else:
+			c=0
 	return jsonify(data = a)
 
     
