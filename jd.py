@@ -20,6 +20,17 @@ app.config["DEBUG"] = True
 def home():
     return "<h1>API</h1><p>Test Api</p>"
 
+@app.route('/authenticate', methods=['Get'])
+def authenticate():
+	a = eval(request.args['questions'])
+	id = a["id"]
+	pwd = a["pwd"]
+	if (id == "ta@csscorp.com" and pwd == "pass123"):
+		b = [{"login":1, "sid" : 1001, "role" : "TA"}]
+	else:
+		b = [{"login":0, "sid" : 0, "role" : ""}]
+	return jsonify(data= b)
+
 # JD Dashboard
 @app.route('/addjd', methods=['GET'])
 def addjd():
@@ -73,21 +84,22 @@ def addjd():
 # ADD New JD
 @app.route('/addjobdesc', methods=['GET'])
 def addjobdesc():
-    a = eval(request.args['questions'])
-    JD_Name = a['JD_Name']
-    BU_Name = a['BU_Name']
-    L0_interview  = a['L0_interview']
-    L1_Panelist_1 = a['L1_Panelist_1']
-    L1_Panelist_2 = a['L1_Panelist_2']
-    L2_Panelist_1 = a['L2_Panelist_1']
-    L1_Panelist_2 = a['L2_Panelist_2']
-    Designation = a['Designation']
-    Years_of_Exp = a['Years_of_Exp']
-    No_of_Position = a['No_of_Position']
-    Skills = a['Skills']
-    Program_code = a['Program_code']
-    op = randint(1005,1100)
-    return jsonify(data = op)
+	a = eval(request.args['questions'])
+	JD_Name = a['JD_Name']
+	BU_Name = a['BU_Name']
+	L0_interview  = a['L0_interview']
+	L1_Panelist_1 = a['L1_Panelist_1']
+	L1_Panelist_2 = a['L1_Panelist_2']
+	L2_Panelist_1 = a['L2_Panelist_1']
+	L1_Panelist_2 = a['L2_Panelist_2']
+	Designation = a['Designation']
+	Years_of_Exp = a['Years_of_Exp']
+	No_of_Position = a['No_of_Position']
+	Skills = a['Skills']
+	Program_code = a['Program_code']
+	a["Attachment"] = "C:/RMS/JD/" + str(a["Attachment"])
+	op = randint(1005,1100)
+	return jsonify(data = op)
 
 # View Profile
 b = [ {
@@ -218,10 +230,10 @@ def viewjd():
 	i = 0
 	a=[]
 	for i in range(0,len(b)):
+		
 		if b[i]["Jd_Id"] == str(request.args['questions']):
 			a.append(b[i])
-		else:
-			c=0
+			
 	return jsonify(data = a)
 
     
@@ -235,10 +247,9 @@ def newprof():
 	Last_Name = a['Last_Name']
 	Email  = a['Email']
 	Phone_No = a['Phone_No']
+	a["Attachment"] = "C:/RMS/Prof/" + str(a["Attachment"])
 	op = randint(1005,1100)
-	with open("new_prof.json","a") as outfile:
-		json.dump(a,outfile)
-	return jsonify(data = op)
+	return jsonify(data = a)
 	
 if __name__ == '__main__':
 	import logging
