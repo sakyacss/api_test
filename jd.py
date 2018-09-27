@@ -249,7 +249,7 @@ def newprof():
 	Phone_No = a['Phone_No']
 	a["Attachment"] = "C:/RMS/Prof/" + str(a["Attachment"])
 	op = randint(1005,1100)
-	return jsonify(data = a)
+	return jsonify(data = op)
 	
 if __name__ == '__main__':
 	import logging
