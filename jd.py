@@ -7,7 +7,7 @@ from random import randint
 #from collections import Counter
 #from google.cloud import bigquery
 #from google.oauth2 import service_account
-#import pandas as pd
+import pandas as pd
 #from pandas.io import gbq
 import json
 import os
@@ -90,11 +90,7 @@ def addjobdesc():
     return jsonify(data = op)
 
 # View Profile
-@app.route('/viewjd', methods=['GET'])
-def viewjd():
-    a = eval(request.args['questions'])
-               
-    b= [ {
+b = [ {
 "Jd_Id":"1001",
 "jd_Name":".Net",
 "created_date":"12-02-2018",
@@ -121,12 +117,114 @@ def viewjd():
 	"Int_Stage": "Completed", 
 	"Name": "Abhi Chu", 		 	
 	"Phone_No": 1234567890, 
-	"Prof_ID": 123, 
+	"Prof_ID": 125, 
+	"Profile": "www.google.com"
+  		}]
+},{
+"Jd_Id":"1002",
+"jd_Name":"C#",
+"created_date":"12-02-2018",
+"Profiles": [{"email":"nishant@gmail.com",
+	"Exp":8,
+	"Int_Stage": "L0", 
+	"Name": "Nishant", 		
+	"Phone_No": 1234567890, 
+	"Prof_ID": 126, 
+	"Profile": "www.google.com"
+  		},
+		{
+	"email":"shalaj@gmail.com",
+	"Exp":8,
+	"Int_Stage": "Rejected", 
+	"Name": "Shalaj", 			
+	"Phone_No": 1234567890, 
+	"Prof_ID": 127, 
+	"Profile": "www.google.com"
+  		},
+		{
+	"email":"karan@gmail.com",
+	"Exp":8,
+	"Int_Stage": "Completed", 
+	"Name": "Karan", 		 	
+	"Phone_No": 1234567890, 
+	"Prof_ID": 128, 
 	"Profile": "www.google.com"
   		}],
-	
-}]
-    return jsonify(data = b)
+},{
+"Jd_Id":"1003",
+"jd_Name":"Big Data",
+"created_date":"12-02-2018",
+"Profiles": [{"email":"piyush@gmail.com",
+	"Exp":8,
+	"Int_Stage": "L0", 
+	"Name": "piyush", 		
+	"Phone_No": 1234567890, 
+	"Prof_ID": 129, 
+	"Profile": "www.google.com"
+  		},
+		{
+	"email":"babu@gmail.com",
+	"Exp":8,
+	"Int_Stage": "Rejected", 
+	"Name": "Babu", 			
+	"Phone_No": 1234567890, 
+	"Prof_ID": 130, 
+	"Profile": "www.google.com"
+  		},
+		{
+	"email":"vinod@gmail.com",
+	"Exp":8,
+	"Int_Stage": "Completed", 
+	"Name": "Vinod", 		 	
+	"Phone_No": 1234567890, 
+	"Prof_ID": 131, 
+	"Profile": "www.google.com"
+  		}]
+},{
+"Jd_Id":"1004",
+"jd_Name":"UI Developer",
+"created_date":"12-02-2018",
+"Profiles": [{"email":"ranjan@gmail.com",
+	"Exp":8,
+	"Int_Stage": "L0", 
+	"Name": "Ranjan", 		
+	"Phone_No": 1234567890, 
+	"Prof_ID": 132, 
+	"Profile": "www.google.com"
+  		},
+		{
+	"email":"rakesh@gmail.com",
+	"Exp":8,
+	"Int_Stage": "Rejected", 
+	"Name": "Rakesh", 			
+	"Phone_No": 1234567890, 
+	"Prof_ID": 133, 
+	"Profile": "www.google.com"
+  		},
+		{
+	"email":"subhajit@gmail.com",
+	"Exp":8,
+	"Int_Stage": "Completed", 
+	"Name": "Subhajit", 		 	
+	"Phone_No": 1234567890, 
+	"Prof_ID": 134, 
+	"Profile": "www.google.com"
+  		}]
+}] 
+#print(len(b))
+@app.route('/viewjd', methods=['GET'])
+def viewjd():
+	#a = eval(request.args['questions'])
+	i = 0
+	a=[]
+	for i in range(0,len(b)):
+		
+		if b[i]["Jd_Id"] == str(request.args['questions']):
+			a.append(b[i])
+			
+	return jsonify(data = a)
+
+    
 	
 # Add new Profile
 @app.route('/newprof', methods=['GET'])
