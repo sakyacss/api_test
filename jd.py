@@ -94,58 +94,37 @@ def addjobdesc():
 def viewjd():
     a = eval(request.args['questions'])
                
-    b= [{
-"JD_Name": ".Net",
-"ID":1001,
-"No_of_Position":200,
-"Created_Date":"10-8-2018",
-"Prof_ID":123,
-"Name":"Sakya Maiti",
-"Email":"sakya@gmail.com",
-"Phone_No": 1234567890,
-"Profile":"www.google.com",
-"Exp":8,
-"Int_Stage":"L0",
-},
-{
-"JD_Name": ".Net",
-"ID":1001,
-"No_of_Position":200,
-"Created_Date":"10-8-2018",
-"Prof_ID":124,
-"Name":"Varun Anant",
-"Email":"varun@gmail.com",
-"Phone_No": 1234567890,
-"Profile":"www.google.com",
-"Exp":5,
-"Int_Stage":"L1",
-},
-
-{
-"JD_Name": ".Net",
-"ID":1001,
-"No_of_Position":200,
-"Created_Date":"10-8-2018",
-"Prof_ID":125,
-"Name":"Abhishek",
-"Email":"abhi@gmail.com",
-"Phone_No": 1234567890,
-"Profile":"www.google.com",
-"Exp":2,
-"Int_Stage":"Selected",
-},
-{
-"JD_Name": ".Net",
-"ID":1001,
-"No_of_Position":200,
-"Created_Date":"10-8-2018",
-"Prof_ID":126,
-"Name":"Kamal",
-"Email":"kamal@gmail.com",
-"Phone_No": 1234567890,
-"Profile":"www.google.com",
-"Exp":2,
-"Int_Stage":"Complete",
+    b= [ {
+"Jd_Id":"1001",
+"jd_Name":".Net",
+"created_date":"12-02-2018",
+"Profiles": [{"email":"sakya@gmail.com",
+	"Exp":8,
+	"Int_Stage": "L0", 
+	"Name": "Sakya Maiti", 		
+	"Phone_No": 1234567890, 
+	"Prof_ID": 123, 
+	"Profile": "www.google.com"
+  		},
+		{
+	"email":"varun@gmail.com",
+	"Exp":8,
+	"Int_Stage": "Rejected", 
+	"Name": "Varun Anant", 			
+	"Phone_No": 1234567890, 
+	"Prof_ID": 124, 
+	"Profile": "www.google.com"
+  		},
+		{
+	"email":"abi@gmail.com",
+	"Exp":8,
+	"Int_Stage": "Completed", 
+	"Name": "Abhi Chu", 		 	
+	"Phone_No": 1234567890, 
+	"Prof_ID": 123, 
+	"Profile": "www.google.com"
+  		}],
+	
 }]
     return jsonify(data = b)
 	
