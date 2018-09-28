@@ -112,7 +112,8 @@ b = [ {
 	"Name": "Sakya Maiti", 		
 	"Phone_No": 1234567890, 
 	"Prof_ID": 123, 
-	"Profile": "www.google.com"
+	"Profile": "www.google.com",
+	"Profile_score": "82%"
   		},
 		{
 	"email":"varun@gmail.com",
@@ -121,7 +122,8 @@ b = [ {
 	"Name": "Varun Anant", 			
 	"Phone_No": 1234567890, 
 	"Prof_ID": 124, 
-	"Profile": "www.google.com"
+	"Profile": "www.google.com",
+	"Profile_score": "52%"
   		},
 		{
 	"email":"abi@gmail.com",
@@ -130,7 +132,8 @@ b = [ {
 	"Name": "Abhi Chu", 		 	
 	"Phone_No": 1234567890, 
 	"Prof_ID": 125, 
-	"Profile": "www.google.com"
+	"Profile": "www.google.com",
+	"Profile_score": "86%"
   		}]
 },{
 "Jd_Id":"1002",
@@ -142,7 +145,8 @@ b = [ {
 	"Name": "Nishant", 		
 	"Phone_No": 1234567890, 
 	"Prof_ID": 126, 
-	"Profile": "www.google.com"
+	"Profile": "www.google.com",
+	"Profile_score": "72%"
   		},
 		{
 	"email":"shalaj@gmail.com",
@@ -151,7 +155,8 @@ b = [ {
 	"Name": "Shalaj", 			
 	"Phone_No": 1234567890, 
 	"Prof_ID": 127, 
-	"Profile": "www.google.com"
+	"Profile": "www.google.com",
+	"Profile_score": "42%"
   		},
 		{
 	"email":"karan@gmail.com",
@@ -160,7 +165,8 @@ b = [ {
 	"Name": "Karan", 		 	
 	"Phone_No": 1234567890, 
 	"Prof_ID": 128, 
-	"Profile": "www.google.com"
+	"Profile": "www.google.com",
+	"Profile_score": "90%"
   		}],
 },{
 "Jd_Id":"1003",
@@ -172,7 +178,8 @@ b = [ {
 	"Name": "piyush", 		
 	"Phone_No": 1234567890, 
 	"Prof_ID": 129, 
-	"Profile": "www.google.com"
+	"Profile": "www.google.com",
+	"Profile_score": "52%"
   		},
 		{
 	"email":"babu@gmail.com",
@@ -181,7 +188,8 @@ b = [ {
 	"Name": "Babu", 			
 	"Phone_No": 1234567890, 
 	"Prof_ID": 130, 
-	"Profile": "www.google.com"
+	"Profile": "www.google.com",
+	"Profile_score": "82%"
   		},
 		{
 	"email":"vinod@gmail.com",
@@ -190,7 +198,8 @@ b = [ {
 	"Name": "Vinod", 		 	
 	"Phone_No": 1234567890, 
 	"Prof_ID": 131, 
-	"Profile": "www.google.com"
+	"Profile": "www.google.com",
+	"Profile_score": "72%"
   		}]
 },{
 "Jd_Id":"1004",
@@ -202,7 +211,8 @@ b = [ {
 	"Name": "Ranjan", 		
 	"Phone_No": 1234567890, 
 	"Prof_ID": 132, 
-	"Profile": "www.google.com"
+	"Profile": "www.google.com",
+	"Profile_score": "52%"
   		},
 		{
 	"email":"rakesh@gmail.com",
@@ -211,7 +221,8 @@ b = [ {
 	"Name": "Rakesh", 			
 	"Phone_No": 1234567890, 
 	"Prof_ID": 133, 
-	"Profile": "www.google.com"
+	"Profile": "www.google.com",
+	"Profile_score": "62%"
   		},
 		{
 	"email":"subhajit@gmail.com",
@@ -220,7 +231,8 @@ b = [ {
 	"Name": "Subhajit", 		 	
 	"Phone_No": 1234567890, 
 	"Prof_ID": 134, 
-	"Profile": "www.google.com"
+	"Profile": "www.google.com",
+	"Profile_score": "82%"
   		}]
 }] 
 #print(len(b))
@@ -236,6 +248,126 @@ def viewjd():
 			
 	return jsonify(data = a)
 
+feedback= [{"Jd_Id":"1001",
+"Prof_Id": "123",
+"Prof_Staus":"Selected",
+"L0_Feedback":"Good",
+"L0_Rating": "7",
+"Skill_Score":{"Java":"6",".Net":"4"},
+"L1_Feedback":"Good",
+"L1_Overall_Rating":"8"
+},
+{"Jd_Id":"1001",
+"Prof_Id": "124",
+"Prof_Staus":"Rejected",
+"L0_Feedback":"Poor",
+"L0_Rating": "7",
+"Skill_Score":{"Java":"6",".Net":"4"},
+"L1_Feedback":"Poor",
+"L1_Overall_Rating":"8"
+},
+{"Jd_Id":"1001",
+"Prof_Id": "125",
+"Prof_Staus":"Completed",
+"L0_Feedback":"Poor",
+"L0_Rating": "7",
+"Skill_Score":{"Java":"6",".Net":"4"},
+"L1_Feedback":"Poor",
+"L1_Overall_Rating":"8"
+},
+{"Jd_Id":"1002",
+"Prof_Id": "126",
+"Prof_Staus":"Rejected",
+"L0_Feedback":"Poor",
+"L0_Rating": "7",
+"Skill_Score":{"Java":"6",".Net":"4"},
+"L1_Feedback":"Poor",
+"L1_Overall_Rating":"8"
+},
+{"Jd_Id":"1002",
+"Prof_Id": "127",
+"Prof_Staus":"Rejected",
+"L0_Feedback":"Poor",
+"L0_Rating": "7",
+"Skill_Score":{"Java":"6",".Net":"4"},
+"L1_Feedback":"Poor",
+"L1_Overall_Rating":"8"
+},
+{"Jd_Id":"1002",
+"Prof_Id": "128",
+"Prof_Staus":"Rejected",
+"L0_Feedback":"Poor",
+"L0_Rating": "7",
+"Skill_Score":{"Java":"6",".Net":"4"},
+"L1_Feedback":"Poor",
+"L1_Overall_Rating":"8"
+},
+{"Jd_Id":"1003",
+"Prof_Id": "129",
+"Prof_Staus":"Rejected",
+"L0_Feedback":"Poor",
+"L0_Rating": "7",
+"Skill_Score":{"Java":"6",".Net":"4"},
+"L1_Feedback":"Poor",
+"L1_Overall_Rating":"8"
+},
+{"Jd_Id":"1003",
+"Prof_Id": "130",
+"Prof_Staus":"Rejected",
+"L0_Feedback":"Poor",
+"L0_Rating": "7",
+"Skill_Score":{"Java":"6",".Net":"4"},
+"L1_Feedback":"Poor",
+"L1_Overall_Rating":"8"
+},
+{"Jd_Id":"1003",
+"Prof_Id": "131",
+"Prof_Staus":"Rejected",
+"L0_Feedback":"Poor",
+"L0_Rating": "7",
+"Skill_Score":{"Java":"6",".Net":"4"},
+"L1_Feedback":"Poor",
+"L1_Overall_Rating":"8"
+},
+{"Jd_Id":"1004",
+"Prof_Id": "132",
+"Prof_Staus":"Rejected",
+"L0_Feedback":"Poor",
+"L0_Rating": "7",
+"Skill_Score":{"Java":"6",".Net":"4"},
+"L1_Feedback":"Poor",
+"L1_Overall_Rating":"8"
+},
+{"Jd_Id":"1002",
+"Prof_Id": "133",
+"Prof_Staus":"Rejected",
+"L0_Feedback":"Poor",
+"L0_Rating": "7",
+"Skill_Score":{"Java":"6",".Net":"4"},
+"L1_Feedback":"Poor",
+"L1_Overall_Rating":"8"
+},
+{"Jd_Id":"1002",
+"Prof_Id": "134",
+"Prof_Staus":"Rejected",
+"L0_Feedback":"Poor",
+"L0_Rating": "7",
+"Skill_Score":{"Java":"6",".Net":"4"},
+"L1_Feedback":"Poor",
+"L1_Overall_Rating":"8"
+}]
+
+# View Interview Feedback
+@app.route('/viewfeedback', methods=['GET'])
+def viewfeedback():
+	some =[]
+	a = eval(request.args['jdid'])
+	b = eval(request.args['profid'])
+	for i in range(0,len(feedback)):
+		if (feedback[i]["Jd_Id"] == str(a) and feedback[i]["Prof_Id"]== str(b)):
+			some.append(feedback[i])
+		
+	return jsonify(data = some)
     
 	
 # Add new Profile
@@ -249,7 +381,7 @@ def newprof():
 	Phone_No = a['Phone_No']
 	a["Attachment"] = "C:/RMS/Prof/" + str(a["Attachment"])
 	op = randint(1005,1100)
-	return jsonify(data = op)
+	return jsonify(data = a)
 	
 if __name__ == '__main__':
 	import logging
