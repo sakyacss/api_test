@@ -49,7 +49,7 @@ def addjd():
 {
 "JD_Name": ".Net",
 "ID":1001,
-"No_of_Position":200,
+"No_of_Position":10,
 "Skill_Sets":".Net",
 "Created_Date":"10-8-2018",
 "Received_profile":100,
@@ -60,7 +60,7 @@ def addjd():
 {
 "JD_Name": "C#",
 "ID":1002,
-"No_of_Position":200,
+"No_of_Position":7,
 "Skill_Sets":"C#",
 "Created_Date":"12-8-2018",
 "Received_profile":120,
@@ -71,7 +71,7 @@ def addjd():
 {
 "JD_Name": "Big Data",
 "ID":1003,
-"No_of_Position":100,
+"No_of_Position":12,
 "Skill_Sets":"Hadoop,Spark,Scala",
 "Created_Date":"12-8-2018",
 "Received_profile":80,
@@ -81,7 +81,7 @@ def addjd():
 {
 "JD_Name": "UI Developer",
 "ID":1004,
-"No_of_Position":50,
+"No_of_Position":6,
 "Skill_Sets":"Angular,Nodejs",
 "Created_Date":"16-8-2018",
 "Received_profile":40,
