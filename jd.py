@@ -124,7 +124,7 @@ b = [{
 	"Phone_No": 9540886855, 
 	"Prof_ID": 135, 
 	"Profile": "www.google.com",
-	"Profile_score": "82%"
+	"Profile_Score": "82%"
   		},
 		{
 	"email":"raunak190r200@gmail.com",
@@ -134,7 +134,7 @@ b = [{
 	"Phone_No": 9494821792, 
 	"Prof_ID": 136, 
 	"Profile": "www.google.com",
-	"Profile_score": "76%"
+	"Profile_Score": "76%"
   		},
 		{
 	"email":"ssanyal.iitr@gmail.com",
@@ -144,7 +144,7 @@ b = [{
 	"Phone_No": 9741155528, 
 	"Prof_ID": 137, 
 	"Profile": "www.google.com",
-	"Profile_score": "79%"
+	"Profile_Score": "79%"
   		},
 		{
 	"email":"kishorekumar522@gmail.com",
@@ -154,7 +154,7 @@ b = [{
 	"Phone_No": 7204410899, 
 	"Prof_ID": 138, 
 	"Profile": "www.google.com",
-	"Profile_score": "86%"
+	"Profile_Score": "86%"
   		},
 		{
 	"email":"lp.dataninja@gmail.com",
@@ -164,7 +164,7 @@ b = [{
 	"Phone_No": 9742123444, 
 	"Prof_ID": 139, 
 	"Profile": "www.google.com",
-	"Profile_score": "83%"
+	"Profile_Score": "83%"
   		},
 		{
 	"email":"vndraj.k@gmail.com",
@@ -174,7 +174,7 @@ b = [{
 	"Phone_No": 9160062299, 
 	"Prof_ID": 140, 
 	"Profile": "www.google.com",
-	"Profile_score": "72%"
+	"Profile_Score": "72%"
   		},
 		{
 	"email":"arvind.anugula@gmail.com",
@@ -184,7 +184,7 @@ b = [{
 	"Phone_No": 8197627896, 
 	"Prof_ID": 141, 
 	"Profile": "www.google.com",
-	"Profile_score": "78%"
+	"Profile_Score": "78%"
   		}]
 }, {
 "Jd_Id":"1001",
@@ -197,7 +197,7 @@ b = [{
 	"Phone_No": 1234567890, 
 	"Prof_ID": 123, 
 	"Profile": "www.google.com",
-	"Profile_score": "82%"
+	"Profile_Score": "82%"
   		},
 		{
 	"email":"varun@gmail.com",
@@ -207,7 +207,7 @@ b = [{
 	"Phone_No": 1234567890, 
 	"Prof_ID": 124, 
 	"Profile": "www.google.com",
-	"Profile_score": "52%"
+	"Profile_Score": "52%"
   		},
 		{
 	"email":"abi@gmail.com",
@@ -217,7 +217,7 @@ b = [{
 	"Phone_No": 1234567890, 
 	"Prof_ID": 125, 
 	"Profile": "www.google.com",
-	"Profile_score": "86%"
+	"Profile_Score": "86%"
   		}]
 },{
 "Jd_Id":"1002",
@@ -230,7 +230,7 @@ b = [{
 	"Phone_No": 1234567890, 
 	"Prof_ID": 126, 
 	"Profile": "www.google.com",
-	"Profile_score": "72%"
+	"Profile_Score": "72%"
   		},
 		{
 	"email":"shalaj@gmail.com",
@@ -240,7 +240,7 @@ b = [{
 	"Phone_No": 1234567890, 
 	"Prof_ID": 127, 
 	"Profile": "www.google.com",
-	"Profile_score": "42%"
+	"Profile_Score": "42%"
   		},
 		{
 	"email":"karan@gmail.com",
@@ -250,7 +250,7 @@ b = [{
 	"Phone_No": 1234567890, 
 	"Prof_ID": 128, 
 	"Profile": "www.google.com",
-	"Profile_score": "90%"
+	"Profile_Score": "90%"
   		}],
 },{
 "Jd_Id":"1003",
@@ -263,7 +263,7 @@ b = [{
 	"Phone_No": 1234567890, 
 	"Prof_ID": 129, 
 	"Profile": "www.google.com",
-	"Profile_score": "52%"
+	"Profile_Score": "52%"
   		},
 		{
 	"email":"babu@gmail.com",
@@ -273,7 +273,7 @@ b = [{
 	"Phone_No": 1234567890, 
 	"Prof_ID": 130, 
 	"Profile": "www.google.com",
-	"Profile_score": "82%"
+	"Profile_Score": "82%"
   		},
 		{
 	"email":"vinod@gmail.com",
@@ -283,7 +283,7 @@ b = [{
 	"Phone_No": 1234567890, 
 	"Prof_ID": 131, 
 	"Profile": "www.google.com",
-	"Profile_score": "72%"
+	"Profile_Score": "72%"
   		}]
 },{
 "Jd_Id":"1004",
@@ -296,7 +296,7 @@ b = [{
 	"Phone_No": 1234567890, 
 	"Prof_ID": 132, 
 	"Profile": "www.google.com",
-	"Profile_score": "52%"
+	"Profile_Score": "52%"
   		},
 		{
 	"email":"rakesh@gmail.com",
@@ -306,7 +306,7 @@ b = [{
 	"Phone_No": 1234567890, 
 	"Prof_ID": 133, 
 	"Profile": "www.google.com",
-	"Profile_score": "62%"
+	"Profile_Score": "62%"
   		},
 		{
 	"email":"subhajit@gmail.com",
@@ -316,7 +316,7 @@ b = [{
 	"Phone_No": 1234567890, 
 	"Prof_ID": 134, 
 	"Profile": "www.google.com",
-	"Profile_score": "82%"
+	"Profile_Score": "82%"
   		}]
 }] 
 #print(len(b))
@@ -342,7 +342,7 @@ feedback= [{"Jd_Id":"1001",
 "Prof_Staus":"Selected",
 "L0_Feedback":"Good",
 "L0_Rating": "7",
-"Skill_Score":[{"Skill1":"Java","Score1":"6"},{"Skill2":".Net","Score2":"4"}],
+"Skill_Score":[{"Skill":"Java","Score":"6"},{"Skill":".Net","Score":"4"}],
 "L1_Feedback":"Good",
 "L1_Overall_Rating":"8"
 },
@@ -356,7 +356,7 @@ feedback= [{"Jd_Id":"1001",
 "Prof_Staus":"Rejected",
 "L0_Feedback":"Poor",
 "L0_Rating": "7",
-"Skill_Score":[{"Skill1":"Java","Score1":"6"},{"Skill2":".Net","Score2":"4"}],
+"Skill_Score":[{"Skill":"Java","Score":"6"},{"Skill":".Net","Score":"4"}],
 "L1_Feedback":"Poor",
 "L1_Overall_Rating":"8"
 },
@@ -370,7 +370,7 @@ feedback= [{"Jd_Id":"1001",
 "Prof_Staus":"Completed",
 "L0_Feedback":"Poor",
 "L0_Rating": "7",
-"Skill_Score":[{"Skill1":"Java","Score1":"6"},{"Skill2":".Net","Score2":"4"}],
+"Skill_Score":[{"Skill":"Java","Score":"6"},{"Skill":".Net","Score":"4"}],
 "L1_Feedback":"Poor",
 "L1_Overall_Rating":"8"
 },
@@ -384,7 +384,7 @@ feedback= [{"Jd_Id":"1001",
 "Prof_Staus":"Rejected",
 "L0_Feedback":"Poor",
 "L0_Rating": "7",
-"Skill_Score":[{"Skill1":"Java","Score1":"6"},{"Skill2":".Net","Score2":"4"}],
+"Skill_Score":[{"Skill":"Java","Score":"6"},{"Skill":".Net","Score":"4"}],
 "L1_Feedback":"Poor",
 "L1_Overall_Rating":"8"
 },
@@ -398,7 +398,7 @@ feedback= [{"Jd_Id":"1001",
 "Prof_Staus":"Rejected",
 "L0_Feedback":"Poor",
 "L0_Rating": "7",
-"Skill_Score":[{"Skill1":"Java","Score1":"6"},{"Skill2":".Net","Score2":"4"}],
+"Skill_Score":[{"Skill":"Java","Score":"6"},{"Skill":".Net","Score":"4"}],
 "L1_Feedback":"Poor",
 "L1_Overall_Rating":"8"
 },
@@ -412,7 +412,7 @@ feedback= [{"Jd_Id":"1001",
 "Prof_Staus":"Rejected",
 "L0_Feedback":"Poor",
 "L0_Rating": "7",
-"Skill_Score":[{"Skill1":"Java","Score1":"6"},{"Skill2":".Net","Score2":"4"}],
+"Skill_Score":[{"Skill":"Java","Score":"6"},{"Skill":".Net","Score":"4"}],
 "L1_Feedback":"Poor",
 "L1_Overall_Rating":"8"
 },
@@ -426,7 +426,7 @@ feedback= [{"Jd_Id":"1001",
 "Prof_Staus":"Rejected",
 "L0_Feedback":"Poor",
 "L0_Rating": "7",
-"Skill_Score":[{"Skill1":"Java","Score1":"6"},{"Skill2":".Net","Score2":"4"}],
+"Skill_Score":[{"Skill":"Java","Score":"6"},{"Skill":".Net","Score":"4"}],
 "L1_Feedback":"Poor",
 "L1_Overall_Rating":"8"
 },
@@ -440,7 +440,7 @@ feedback= [{"Jd_Id":"1001",
 "Prof_Staus":"Rejected",
 "L0_Feedback":"Poor",
 "L0_Rating": "7",
-"Skill_Score":[{"Skill1":"Java","Score1":"6"},{"Skill2":".Net","Score2":"4"}],
+"Skill_Score":[{"Skill":"Java","Score":"6"},{"Skill":".Net","Score":"4"}],
 "L1_Feedback":"Poor",
 "L1_Overall_Rating":"8"
 },
@@ -454,7 +454,7 @@ feedback= [{"Jd_Id":"1001",
 "Prof_Staus":"Rejected",
 "L0_Feedback":"Poor",
 "L0_Rating": "7",
-"Skill_Score":[{"Skill1":"Java","Score1":"6"},{"Skill2":".Net","Score2":"4"}],
+"Skill_Score":[{"Skill":"Java","Score":"6"},{"Skill":".Net","Score":"4"}],
 "L1_Feedback":"Poor",
 "L1_Overall_Rating":"8"
 },
@@ -468,7 +468,7 @@ feedback= [{"Jd_Id":"1001",
 "Prof_Staus":"Rejected",
 "L0_Feedback":"Poor",
 "L0_Rating": "7",
-"Skill_Score":[{"Skill1":"Java","Score1":"6"},{"Skill2":".Net","Score2":"4"}],
+"Skill_Score":[{"Skill":"Java","Score":"6"},{"Skill":".Net","Score":"4"}],
 "L1_Feedback":"Poor",
 "L1_Overall_Rating":"8"
 },
@@ -482,7 +482,7 @@ feedback= [{"Jd_Id":"1001",
 "Prof_Staus":"Rejected",
 "L0_Feedback":"Poor",
 "L0_Rating": "7",
-"Skill_Score":[{"Skill1":"Java","Score1":"6"},{"Skill2":".Net","Score2":"4"}],
+"Skill_Score":[{"Skill":"Java","Score":"6"},{"Skill":".Net","Score":"4"}],
 "L1_Feedback":"Poor",
 "L1_Overall_Rating":"8"
 },
@@ -496,7 +496,7 @@ feedback= [{"Jd_Id":"1001",
 "Prof_Staus":"Rejected",
 "L0_Feedback":"Poor",
 "L0_Rating": "7",
-"Skill_Score":[{"Skill1":"Java","Score1":"6"},{"Skill2":".Net","Score2":"4"}],
+"Skill_Score":[{"Skill":"Java","Score":"6"},{"Skill":".Net","Score":"4"}],
 "L1_Feedback":"Poor",
 "L1_Overall_Rating":"8"
 },
@@ -510,7 +510,7 @@ feedback= [{"Jd_Id":"1001",
 "Prof_Staus":"Selected",
 "L0_Feedback":"",
 "L0_Rating": "7",
-"Skill_Score":[{"Skill1":"Scala","Score1":"6"},{"Skill2":"No SQL / SQL DB", "Score2":"7"},{"Skill3":"Hadoop (Oozie, Spark and Hive)", "Score3":"6"} , {"Skill4":"Storage / Retrieval", "Score4":"6"}, {"Skill5":"Problem Solving", "Score5":"8"}, {"Skill6":"Communication","Score6":"8"}],
+"Skill_Score":[{"Skill":"Scala","Score":"6"},{"Skill":"No SQL / SQL DB", "Score":"7"},{"Skill":"Hadoop (Oozie, Spark and Hive)", "Score":"6"} , {"Skill":"Storage / Retrieval", "Score":"6"}, {"Skill":"Problem Solving", "Score":"8"}, {"Skill":"Communication","Score":"8"}],
 "L1_Feedback":"Breadth of knowledge in all the technologies with strong Fundamentals of algorithms and data structures",
 "L1_Overall_Rating":"6",
 "L2_Feeback":"Strong fundamentals and logical skills and fit for role",
@@ -526,7 +526,7 @@ feedback= [{"Jd_Id":"1001",
 "Prof_Staus":"Selected",
 "L0_Feedback":"Good candidate",
 "L0_Rating": "7",
-"Skill_Score":[{"Skill1":"Scala","Score1":"8"},{"Skill2":"No SQL / SQL DB", "Score2":"8"},{"Skill3":"Hadoop (Oozie, Spark and Hive)", "Score3":"8"} , {"Skill4":"Storage / Retrieval", "Score4":"8"}, {"Skill5":"Problem Solving", "Score5":"7"}, {"Skill6":"Communication","Score6":"7"}],
+"Skill_Score":[{"Skill":"Scala","Score":"8"},{"Skill":"No SQL / SQL DB", "Score":"8"},{"Skill":"Hadoop (Oozie, Spark and Hive)", "Score":"8"} , {"Skill":"Storage / Retrieval", "Score":"8"}, {"Skill":"Problem Solving", "Score":"7"}, {"Skill":"Communication","Score":"7"}],
 "L1_Feedback":"Good technical knowledge with decent problem solving and communication skills",
 "L1_Overall_Rating":"8",
 "L2_Feeback":"Good hand-on knowledge with hands-on exposure to the big data stack. Also, has decent communication and problem solving skills",
@@ -542,7 +542,7 @@ feedback= [{"Jd_Id":"1001",
 "Prof_Staus":"Selected",
 "L0_Feedback":"Very good at aptitute and puzzle solving.",
 "L0_Rating": "8",
-"Skill_Score":[{"Skill1":"Scala","Score1":"6"},{"Skill2":"No SQL / SQL DB", "Score2":"7"},{"Skill3":"Hadoop (Oozie, Spark and Hive)", "Score3":"6"} , {"Skill4":"Storage / Retrieval", "Score4":"6"}, {"Skill5":"Problem Solving", "Score5":"8"}, {"Skill6":"Communication","Score6":"8"}],
+"Skill_Score":[{"Skill":"Scala","Score":"6"},{"Skill":"No SQL / SQL DB", "Score":"7"},{"Skill":"Hadoop (Oozie, Spark and Hive)", "Score":"6"} , {"Skill":"Storage / Retrieval", "Score":"6"}, {"Skill":"Problem Solving", "Score":"8"}, {"Skill":"Communication","Score":"8"}],
 "L1_Feedback":"Very good at coding. He have also worked on streaming data which is an added bonus.",
 "L1_Overall_Rating":"9",
 "L2_Feeback":"Project Experience: Two big projects. One with major beverages company and another with a telecom company. Problem Solving : Able to answer all three questions in a short span of time. Thought process was good. Algorithmic Question : Was able to Synthesize problem into smaller components and solve . Asked about de-dupe algorithms. Big Data Architecture : Understands different components of Batch and streaming data processing but lacks in depth assessment",
@@ -558,7 +558,7 @@ feedback= [{"Jd_Id":"1001",
 "Prof_Staus":"Selected",
 "L0_Feedback":"Good coding skill on scala and hadoop",
 "L0_Rating": "7",
-"Skill_Score":[{"Skill1":"Scala","Score1":"8"},{"Skill2":"No SQL / SQL DB", "Score2":"6"},{"Skill3":"Hadoop (Oozie, Spark and Hive)", "Score3":"7"} , {"Skill4":"Storage / Retrieval", "Score4":"6"}, {"Skill5":"Problem Solving", "Score5":"8"}, {"Skill6":"Communication","Score6":"7"}],
+"Skill_Score":[{"Skill":"Scala","Score":"8"},{"Skill":"No SQL / SQL DB", "Score":"6"},{"Skill":"Hadoop (Oozie, Spark and Hive)", "Score":"7"} , {"Skill":"Storage / Retrieval", "Score":"6"}, {"Skill":"Problem Solving", "Score":"8"}, {"Skill":"Communication","Score":"7"}],
 "L1_Feedback":"Strong logical thinker with technical competence in the necessary areas.",
 "L1_Overall_Rating":"7",
 "L2_Feeback":"Good problem solver with ability to breakdown complex problems into technical tasks and solving them. Demonstrated strong understanding of Big Data",
@@ -574,7 +574,7 @@ feedback= [{"Jd_Id":"1001",
 "Prof_Staus":"Selected",
 "L0_Feedback":"Has used the available libraries and common features but lacks in depth knowledge of how the language works and its idioms. Carries over some misleading knowledge from his work with Java.",
 "L0_Rating": "7",
-"Skill_Score":[{"Skill1":"Scala","Score1":"6"},{"Skill2":"No SQL / SQL DB", "Score2":"7"},{"Skill3":"Hadoop (Oozie, Spark and Hive)", "Score3":"6"} , {"Skill4":"Storage / Retrieval", "Score4":"8"}, {"Skill5":"Problem Solving", "Score5":"8"}, {"Skill6":"Communication","Score6":"8"}],
+"Skill_Score":[{"Skill":"Scala","Score":"6"},{"Skill":"No SQL / SQL DB", "Score":"7"},{"Skill":"Hadoop (Oozie, Spark and Hive)", "Score":"6"} , {"Skill":"Storage / Retrieval", "Score":"8"}, {"Skill":"Problem Solving", "Score":"8"}, {"Skill":"Communication","Score":"8"}],
 "L1_Feedback":"Strong programming and aptitude and good with Hadoop ecosystem",
 "L1_Overall_Rating":"8",
 "L2_Feeback":"Strong programming skills with add on skills of AI and Machine learning",
@@ -590,7 +590,7 @@ feedback= [{"Jd_Id":"1001",
 "Prof_Staus":"Selected",
 "L0_Feedback":"Very good at aptitute and puzzle solving.",
 "L0_Rating": "9",
-"Skill_Score":[{"Skill1":"Scala","Score1":"7"},{"Skill2":"No SQL / SQL DB", "Score2":"8"},{"Skill3":"Hadoop (Oozie, Spark and Hive)", "Score3":"7"} , {"Skill4":"Storage / Retrieval", "Score4":"8"}, {"Skill5":"Problem Solving", "Score5":"9"}, {"Skill6":"Communication","Score6":"9"}],
+"Skill_Score":[{"Skill":"Scala","Score":"7"},{"Skill":"No SQL / SQL DB", "Score":"8"},{"Skill":"Hadoop (Oozie, Spark and Hive)", "Score":"7"} , {"Skill":"Storage / Retrieval", "Score":"8"}, {"Skill":"Problem Solving", "Score":"9"}, {"Skill":"Communication","Score":"9"}],
 "L1_Feedback":"Good coding skill on python, Hadoop Map Reduce and also on data transformation part.",
 "L1_Overall_Rating":"8",
 "L2_Feeback":"Project Experience: Experience in Big data projects in the areas of Data Ingestion,Transformation & Data Processing (with Spark/Scala combination; averse to Map-Reduce or biased). Problem solving: Candidate was given 3 problems and was not able to answer 2 question. Thought process was on the average side. Algorithmic Question : Has done only a moderate level complexity (fuzzy logic, string matching & address merging). Scenario and Architecture: Candidate was able to call out the components clearly for 3 scenarios with in-depth analysis and justification",
@@ -606,7 +606,7 @@ feedback= [{"Jd_Id":"1001",
 "Prof_Staus":"Selected",
 "L0_Feedback":"Moderate puzzel solving skills.",
 "L0_Rating": "6",
-"Skill_Score":[{"Skill1":"Scala","Score1":"8"},{"Skill2":"No SQL / SQL DB", "Score2":"7"},{"Skill3":"Hadoop (Oozie, Spark and Hive)", "Score3":"9"} , {"Skill4":"Storage / Retrieval", "Score4":"6"}, {"Skill5":"Problem Solving", "Score5":"8"}, {"Skill6":"Communication","Score6":"8"}],
+"Skill_Score":[{"Skill":"Scala","Score":"8"},{"Skill":"No SQL / SQL DB", "Score":"7"},{"Skill":"Hadoop (Oozie, Spark and Hive)", "Score":"9"} , {"Skill":"Storage / Retrieval", "Score":"6"}, {"Skill":"Problem Solving", "Score":"8"}, {"Skill":"Communication","Score":"8"}],
 "L1_Feedback":"Very good understanding on coding and analytical thought process",
 "L1_Overall_Rating":"8",
 "L2_Feeback":"Project Experience: Has good hands-on experience in Big Data Project. Has been involved in 4 Projects.Problem Solving: Was able to solve 2/3 problems in a reasonable time. Has good aptitude in Mathematics. Algorithmic Question : Has done only a moderate level complexity. Big Data Architecture : Good conceptual knowledge of Big Data but not an architect material",
