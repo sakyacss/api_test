@@ -529,7 +529,7 @@ feedback= [{"Jd_Id":"1001",
 "Skill_Score":{"Big Data": "6", "Python":"9", "Hadoop":"8", "MapReduce":"7"},
 "L1_Feedback":"Poor",
 "L1_Overall_Rating":"8",
-"L2_Feeback":"Good",
+"L2_Feeback":"",
 "L2_Overall_Rating": "7"
 },
 {"Jd_Id":"1005",
@@ -540,13 +540,13 @@ feedback= [{"Jd_Id":"1001",
 "Phone_No": 9741155528,
 "jd_Name":"Apple Data Engineer",
 "Prof_Staus":"Selected",
-"L0_Feedback":"Good coding skill",
-"L0_Rating": "7",
+"L0_Feedback":"Very good at aptitute and puzzel solving.",
+"L0_Rating": "8",
 "Skill_Score":{"Big Data": "6", "Python":"9", "Hadoop":"8", "MapReduce":"7"},
-"L1_Feedback":"Poor",
-"L1_Overall_Rating":"8",
-"L2_Feeback":"Good",
-"L2_Overall_Rating": "7"
+"L1_Feedback":"Very good at coding. He have also worked on streaming data which is an added bonus.",
+"L1_Overall_Rating":"9",
+"L2_Feeback":"Project Experience: Two big projects. One with major beverages company and another with a telecom company. Problem Solving : Able to answer all three questions in a short span of time. Thought process was good. Algorithmic Question : Was able to Synthesize problem into smaller components and solve . Asked about de-dupe algorithms. Big Data Architecture : Understands different components of Batch and streaming data processing but lacks in depth assessment",
+"L2_Overall_Rating": "8"
 },
 {"Jd_Id":"1005",
 "Prof_Id": "138",
@@ -556,11 +556,11 @@ feedback= [{"Jd_Id":"1001",
 "Phone_No": 7204410899,
 "jd_Name":"Apple Data Engineer",
 "Prof_Staus":"Selected",
-"L0_Feedback":"Good coding skill",
+"L0_Feedback":"Good coding skill on scala and hadoop",
 "L0_Rating": "7",
-"Skill_Score":{"Big Data": "6", "Python":"9", "Hadoop":"8", "MapReduce":"7"},
-"L1_Feedback":"Poor",
-"L1_Overall_Rating":"8",
+"Skill_Score":{"Scala": "8","No SQL / SQL DB": "6","Hadoop (Oozie, Spark and Hive)": "7" , "Storage / Retrieval": "6", "Problem Solving":"8"},
+"L1_Feedback":"Strong logical thinker with technical competence in the necessary areas.",
+"L1_Overall_Rating":"7",
 "L2_Feeback":"Good",
 "L2_Overall_Rating": "7"
 },
@@ -588,13 +588,13 @@ feedback= [{"Jd_Id":"1001",
 "Phone_No": 9160062299,
 "jd_Name":"Apple Data Engineer",
 "Prof_Staus":"Selected",
-"L0_Feedback":"Good coding skill",
-"L0_Rating": "7",
+"L0_Feedback":"Very good at aptitute and puzzel solving.",
+"L0_Rating": "9",
 "Skill_Score":{"Big Data": "6", "Python":"9", "Hadoop":"8", "MapReduce":"7"},
-"L1_Feedback":"Poor",
+"L1_Feedback":"Good coding skill on python, Hadoop Map Reduce and also on data transformation part.",
 "L1_Overall_Rating":"8",
-"L2_Feeback":"Good",
-"L2_Overall_Rating": "7"
+"L2_Feeback":"Project Experience: Experience in Big data projects in the areas of Data Ingestion,Transformation & Data Processing (with Spark/Scala combination; averse to Map-Reduce or biased). Problem solving: Candidate was given 3 problems and was not able to answer 2 question. Thought process was on the average side. Algorithmic Question : Has done only a moderate level complexity (fuzzy logic, string matching & address merging). Scenario and Architecture: Candidate was able to call out the components clearly for 3 scenarios with in-depth analysis and justification",
+"L2_Overall_Rating": "8"
 },
 {"Jd_Id":"1005",
 "Prof_Id": "141",
@@ -604,12 +604,12 @@ feedback= [{"Jd_Id":"1001",
 "Phone_No": 8197627896,
 "jd_Name":"Apple Data Engineer",
 "Prof_Staus":"Selected",
-"L0_Feedback":"Good coding skill",
-"L0_Rating": "7",
+"L0_Feedback":"Moderate puzzel solving skills.",
+"L0_Rating": "6",
 "Skill_Score":{"Big Data": "6", "Python":"9", "Hadoop":"8", "MapReduce":"7"},
-"L1_Feedback":"Poor",
+"L1_Feedback":"Very good understanding on coding and analytical thought process",
 "L1_Overall_Rating":"8",
-"L2_Feeback":"Good",
+"L2_Feeback":"Project Experience: Has good hands-on experience in Big Data Project. Has been involved in 4 Projects.Problem Solving: Was able to solve 2/3 problems in a reasonable time. Has good aptitude in Mathematics. Algorithmic Question : Has done only a moderate level complexity. Big Data Architecture : Good conceptual knowledge of Big Data but not an architect material",
 "L2_Overall_Rating": "7"
 }]
 
@@ -617,10 +617,12 @@ feedback= [{"Jd_Id":"1001",
 @app.route('/viewfeedback', methods=['GET'])
 def viewfeedback():
 	some =[]
-	a = eval(request.args['jdid'])
-	b = eval(request.args['profid'])
+	a = eval(request.args['questions'])
+	Jd_Id = a["jdid"]
+	Prof_Id = a["profid"]
+	#b = eval(request.args['profid'])
 	for i in range(0,len(feedback)):
-		if (feedback[i]["Jd_Id"] == str(a) and feedback[i]["Prof_Id"]== str(b)):
+		if (feedback[i]["Jd_Id"] == str(Jd_Id) and feedback[i]["Prof_Id"]== str(Prof_Id)):
 			some.append(feedback[i])
 		
 	return jsonify(data = some)
