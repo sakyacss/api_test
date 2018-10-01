@@ -25,7 +25,7 @@ def authenticate():
 	a = eval(request.args['questions'])
 	id = a["id"]
 	pwd = a["pwd"]
-	if (id == "ta@csscorp.com" and pwd == "pass123"):
+	if (id == "admin@csscorp.com" and pwd == "pass123"):
 		b = [{"login":1, "sid" : 1001, "role" : "TA"}]
 	else:
 		b = [{"login":0, "sid" : 0, "role" : ""}]
@@ -39,12 +39,12 @@ def addjd():
 	{
 "JD_Name": "Apple Data Engineer",
 "ID":1005,
-"No_of_Position":50,
-"Skill_Sets":"Big Data, Python, Hadoop, MapReduce",
+"No_of_Position":35,
+"Skill_Sets":"Scala, Spark, Hadoop, Python, Map Reduce",
 "Created_Date":"30-06-2018",
-"Received_profile":205,
-"Interview_completed":100,
-"Yet_to_schedule":105 
+"Received_profile":109,
+"Interview_completed":91,
+"Yet_to_schedule":18 
 },
 {
 "JD_Name": ".Net",
