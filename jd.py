@@ -42,8 +42,8 @@ def addjd():
 "No_of_Position":35,
 "Skill_Sets":"Scala, Spark, Hadoop, Python, Map Reduce",
 "Created_Date":"30-06-2018",
-"Received_profile":109,
-"Interview_completed":91,
+"Received_profile":194,
+"Interview_completed":98,
 "Yet_to_schedule":18 
 },
 {
