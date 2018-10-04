@@ -25,7 +25,7 @@ def authenticate():
 	a = eval(request.args['questions'])
 	id = a["id"]
 	pwd = a["pwd"]
-	if (id == "admin@csscorp.com" and pwd == "pass123"):
+	if (id == "ta@csscorp.com" and pwd == "pass123"):
 		b = [{"login":1, "sid" : 1001, "role" : "TA"}]
 	else:
 		b = [{"login":0, "sid" : 0, "role" : ""}]
@@ -39,17 +39,17 @@ def addjd():
 	{
 "JD_Name": "Apple Data Engineer",
 "ID":1005,
-"No_of_Position":35,
-"Skill_Sets":"Scala, Spark, Hadoop, Python, Map Reduce",
+"No_of_Position":50,
+"Skill_Sets":"Big Data, Python, Hadoop, MapReduce",
 "Created_Date":"30-06-2018",
-"Received_profile":194,
-"Interview_completed":98,
-"Yet_to_schedule":18 
+"Received_profile":205,
+"Interview_completed":100,
+"Yet_to_schedule":105 
 },
 {
 "JD_Name": ".Net",
 "ID":1001,
-"No_of_Position":10,
+"No_of_Position":200,
 "Skill_Sets":".Net",
 "Created_Date":"10-8-2018",
 "Received_profile":100,
@@ -60,7 +60,7 @@ def addjd():
 {
 "JD_Name": "C#",
 "ID":1002,
-"No_of_Position":7,
+"No_of_Position":200,
 "Skill_Sets":"C#",
 "Created_Date":"12-8-2018",
 "Received_profile":120,
@@ -71,7 +71,7 @@ def addjd():
 {
 "JD_Name": "Big Data",
 "ID":1003,
-"No_of_Position":12,
+"No_of_Position":100,
 "Skill_Sets":"Hadoop,Spark,Scala",
 "Created_Date":"12-8-2018",
 "Received_profile":80,
@@ -81,7 +81,7 @@ def addjd():
 {
 "JD_Name": "UI Developer",
 "ID":1004,
-"No_of_Position":6,
+"No_of_Position":50,
 "Skill_Sets":"Angular,Nodejs",
 "Created_Date":"16-8-2018",
 "Received_profile":40,
@@ -90,11 +90,11 @@ def addjd():
 ]
 
     
-    return jsonify(data = a)
+    return jsonify(data = "success")
 
 # ADD New JD
 @app.route('/addjobdesc', methods=['GET'])
-def addjobdesc():
+def addjobdesc( ):
 	a = eval(request.args['questions'])
 	JD_Name = a['JD_Name']
 	BU_Name = a['BU_Name']
@@ -508,7 +508,7 @@ feedback= [{"Jd_Id":"1001",
 "Phone_No": 9540886855,
 "jd_Name":"Apple Data Engineer",
 "Prof_Staus":"Selected",
-"L0_Feedback":"Very good puzzel solving skill.",
+"L0_Feedback":"",
 "L0_Rating": "7",
 "Skill_Score":[{"Skill":"Scala","Score":"6"},{"Skill":"No SQL / SQL DB", "Score":"7"},{"Skill":"Hadoop (Oozie, Spark and Hive)", "Score":"6"} , {"Skill":"Storage / Retrieval", "Score":"6"}, {"Skill":"Problem Solving", "Score":"8"}, {"Skill":"Communication","Score":"8"}],
 "L1_Feedback":"Breadth of knowledge in all the technologies with strong Fundamentals of algorithms and data structures",
@@ -626,7 +626,28 @@ def viewfeedback():
 			some.append(feedback[i])
 		
 	return jsonify(data = some)
-    
+
+# Add Feedback
+@app.route('/addfeedback', methods=['GET'])
+def addfeedback():
+	some=[]
+	a = eval(request.args['questions'])
+	Jd_Id = a["jdid"]
+	Prof_Id = a["profid"]
+	Core_Competency = a["Core_Competency"]
+	General_Competency = a['General_Competency']
+	Overall_Rating = a['Overall_Rating']
+	for i in range(0,len(feedback)):
+		if(feedback[i]["Jd_Id"]==str(Jd_Id) and feedback[i]["Prof_Id"]==str(Prof_Id)):
+			some.append(feedback[i]["Name"])
+			some.append(feedback[i]["email"])
+			some.append(feedback[i]["Exp"])
+			some.append(feedback[i]["jd_Name"])
+			for j in range(0,len(feedback[i]["Skill_Score"])):
+				some.append(feedback[i]["Skill_Score"][j]["Skill"])
+			op = randint(1005,1100)
+			some.append(op)
+	return jsonify(data = some)    
 	
 # Add new Profile
 @app.route('/newprof', methods=['GET'])
