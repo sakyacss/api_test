@@ -4,19 +4,24 @@ from flask import request, jsonify
 import re, math
 from flask_cors import CORS
 from random import randint
-import mysql.connector
+from flaskext.mysql import MySQL
 import json
 import os
 import pandas as pd
-
-
 
 app = flask.Flask(__name__)
 CORS(app)
 app.config["DEBUG"] = True
 
-cnx = mysql.connector.connect(user='root', password='@bobmarley123',host='0.0.0.0',database='test_db',port='5000')
-mycursor = cnx.cursor()
+mysql = MySQL()
+ 
+# MySQL configurations
+app.config['MYSQL_DATABASE_USER'] = 'root'
+app.config['MYSQL_DATABASE_PASSWORD'] = '@bobmarley123'
+app.config['MYSQL_DATABASE_DB'] = 'test_db'
+app.config['MYSQL_DATABASE_HOST'] = 'localhost'
+mysql.init_app(app)
+cnx = mysql.connect()
 
 @app.route('/', methods=['GET'])
 def home():
@@ -46,12 +51,12 @@ def addjd():
 	query = "select JD_Name,Create_Date, JD_ID, No_of_open_Pos, Skill, Received_Profile, Interview_Completed, Yet_To_Schedule FROM add_new_hiring"
 	mycursor.execute(query)
 	result = mycursor.fetchall()
-	df = pd.DataFrame(result)
-	df.columns = ["JD_Name", "Created_Date","ID","No_of_Position","Skill_Sets","Received_profile","Interview_completed","Yet_to_schedule"]
-	df["Created_Date_String"] = (df["Created_Date"].astype(str))
-	out = df.to_json(orient="records")
-	out = json.loads(out)
-	return jsonify(data = out)
+	#df = pd.DataFrame(eval(result))
+	#df.columns = ["JD_Name", "Created_Date","ID","No_of_Position","Skill_Sets","Received_profile","Interview_completed","Yet_to_schedule"]
+	#df["Created_Date_String"] = (df["Created_Date"].astype(str))
+	#out = df.to_json(orient="records")
+	#out = json.loads(out)
+	return jsonify(result)
 
 # ADD New JD
 @app.route('/addjobdesc', methods=['GET'])
