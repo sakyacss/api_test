@@ -15,7 +15,7 @@ app = flask.Flask(__name__)
 CORS(app)
 app.config["DEBUG"] = True
 
-cnx = mysql.connector.connect(user='root', password='@bobmarley123',host='127.0.0.1',database='test_db')
+cnx = mysql.connector.connect(user='root', password='@bobmarley123',host='0.0.0.0',database='test_db',port='5000')
 mycursor = cnx.cursor()
 
 @app.route('/', methods=['GET'])
