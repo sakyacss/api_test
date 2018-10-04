@@ -90,7 +90,7 @@ def addjd():
 ]
 
     
-    return jsonify(data = "success")
+    return jsonify(data = a)
 
 # ADD New JD
 @app.route('/addjobdesc', methods=['GET'])
