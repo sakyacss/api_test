@@ -9,7 +9,7 @@ import json
 import os
 import pandas as pd
 
-db = pymysql.connect(host='localhost', user='root', passwd='@bobmarley123', db='test_db', port= 3306)
+db = pymysql.connect(host='127.0.0.1', user='root', passwd='@bobmarley123', db='test_db', port= 3306)
 
 app = flask.Flask(__name__)
 CORS(app)
