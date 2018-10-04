@@ -9,14 +9,14 @@ import json
 import os
 import pandas as pd
 
-cnx = mysql.connector.connect(user='root', password='@bobmarley123',host='127.0.0.1',database='test_db')
+
 
 app = flask.Flask(__name__)
 CORS(app)
 app.config["DEBUG"] = True
 
-
-#mycursor = cnx.cursor()
+cnx = mysql.connector.connect(user='root', password='@bobmarley123',host='127.0.0.1',database='test_db')
+mycursor = cnx.cursor()
 
 @app.route('/', methods=['GET'])
 def home():
