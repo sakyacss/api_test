@@ -25,7 +25,7 @@ def authenticate():
 	a = eval(request.args['questions'])
 	id = a["id"]
 	pwd = a["pwd"]
-	if (id == "ta@csscorp.com" and pwd == "pass123"):
+	if (id == "admin@csscorp.com" and pwd == "pass123"):
 		b = [{"login":1, "sid" : 1001, "role" : "TA"}]
 	else:
 		b = [{"login":0, "sid" : 0, "role" : ""}]
@@ -39,28 +39,28 @@ def addjd():
 	{
 "JD_Name": "Apple Data Engineer",
 "ID":1005,
-"No_of_Position":50,
+"No_of_Position":35,
 "Skill_Sets":"Big Data, Python, Hadoop, MapReduce",
 "Created_Date":"30-06-2018",
-"Received_profile":205,
-"Interview_completed":100,
-"Yet_to_schedule":105 
+"Received_profile":198,
+"Interview_completed":94,
+"Yet_to_schedule":18 
 },
 {
 "JD_Name": ".Net",
 "ID":1001,
-"No_of_Position":200,
+"No_of_Position":7,
 "Skill_Sets":".Net",
 "Created_Date":"10-8-2018",
 "Received_profile":100,
-"Interview_completed":50,
-"Yet_to_schedule":50 
+"Interview_completed":75,
+"Yet_to_schedule":25 
 },
 
 {
 "JD_Name": "C#",
 "ID":1002,
-"No_of_Position":200,
+"No_of_Position":10,
 "Skill_Sets":"C#",
 "Created_Date":"12-8-2018",
 "Received_profile":120,
@@ -71,7 +71,7 @@ def addjd():
 {
 "JD_Name": "Big Data",
 "ID":1003,
-"No_of_Position":100,
+"No_of_Position":7,
 "Skill_Sets":"Hadoop,Spark,Scala",
 "Created_Date":"12-8-2018",
 "Received_profile":80,
@@ -81,7 +81,7 @@ def addjd():
 {
 "JD_Name": "UI Developer",
 "ID":1004,
-"No_of_Position":50,
+"No_of_Position":5,
 "Skill_Sets":"Angular,Nodejs",
 "Created_Date":"16-8-2018",
 "Received_profile":40,
@@ -213,7 +213,7 @@ b = [{
 	"email":"abi@gmail.com",
 	"Exp":8,
 	"Int_Stage": "Completed", 
-	"Name": "Abhi Chu", 		 	
+	"Name": "Abhishek Ganapati", 		 	
 	"Phone_No": 1234567890, 
 	"Prof_ID": 125, 
 	"Profile": "www.google.com",
