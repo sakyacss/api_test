@@ -40,7 +40,7 @@ def addjd():
 "JD_Name": "Apple Data Engineer",
 "ID":1005,
 "No_of_Position":35,
-"Skill_Sets":"Big Data, Python, Hadoop, MapReduce",
+"Skill_Sets":"Scala, Spark, Hadoop, MapReduce, Python",
 "Created_Date":"30-06-2018",
 "Received_profile":198,
 "Interview_completed":94,
