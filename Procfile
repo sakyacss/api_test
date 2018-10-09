@@ -1,1 +1,1 @@
-web: python jd.py
+web: python jd1.py
