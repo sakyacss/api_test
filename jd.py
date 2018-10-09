@@ -1,7 +1,7 @@
 from __future__ import print_function
 import flask
-from flask import request, jsonify
-import re, math
+from flask import Flask, request, jsonify, render_template
+from werkzeug import secure_filename
 from flask_cors import CORS
 from random import randint
 #from collections import Counter
@@ -16,9 +16,17 @@ app = flask.Flask(__name__)
 CORS(app)
 app.config["DEBUG"] = True
 
-@app.route('/', methods=['GET'])
+@app.route('/')
 def home():
-    return "<h1>API</h1><p>Test Api</p>"
+    return render_template("upload.html")
+
+@app.route('/uploader', methods = ['GET', 'POST'])
+def upload_file():
+	if request.method == 'POST':
+		
+		f = request.files['file']
+		f.save(secure_filename(f.filename))
+		return 'file uploaded successfully'
 
 @app.route('/authenticate', methods=['Get'])
 def authenticate():
