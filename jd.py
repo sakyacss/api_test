@@ -46,7 +46,7 @@ def addjd():
     a= [
 	{
 "JD_Name": "Apple Data Engineer",
-"ID":1005,
+"ID":1,
 "No_of_Position":35,
 "Skill_Sets":"Scala, Spark, Hadoop, MapReduce, Python",
 "Created_Date":"30-06-2018",
@@ -56,7 +56,7 @@ def addjd():
 },
 {
 "JD_Name": ".Net",
-"ID":1001,
+"ID":2,
 "No_of_Position":7,
 "Skill_Sets":".Net",
 "Created_Date":"10-8-2018",
@@ -67,7 +67,7 @@ def addjd():
 
 {
 "JD_Name": "C#",
-"ID":1002,
+"ID":3,
 "No_of_Position":10,
 "Skill_Sets":"C#",
 "Created_Date":"12-8-2018",
@@ -78,7 +78,7 @@ def addjd():
 
 {
 "JD_Name": "Big Data",
-"ID":1003,
+"ID":4,
 "No_of_Position":7,
 "Skill_Sets":"Hadoop,Spark,Scala",
 "Created_Date":"12-8-2018",
@@ -88,7 +88,7 @@ def addjd():
 },
 {
 "JD_Name": "UI Developer",
-"ID":1004,
+"ID":5,
 "No_of_Position":5,
 "Skill_Sets":"Angular,Nodejs",
 "Created_Date":"16-8-2018",
@@ -122,7 +122,7 @@ def addjobdesc( ):
 
 # View Profile
 b = [{
-"Jd_Id":"1005",
+"Jd_Id":"1",
 "jd_Name":"Apple Data Engineer",
 "created_date":"01-08-2018",
 "Profiles": [{"email":"harmanjeetsingh121@gmail.com",
@@ -195,7 +195,7 @@ b = [{
 	"Profile_Score": "78%"
   		}]
 }, {
-"Jd_Id":"1001",
+"Jd_Id":"2",
 "jd_Name":".Net",
 "created_date":"12-02-2018",
 "Profiles": [{"email":"sakya@gmail.com",
@@ -228,7 +228,7 @@ b = [{
 	"Profile_Score": "86%"
   		}]
 },{
-"Jd_Id":"1002",
+"Jd_Id":"3",
 "jd_Name":"C#",
 "created_date":"12-02-2018",
 "Profiles": [{"email":"nishant@gmail.com",
@@ -261,7 +261,7 @@ b = [{
 	"Profile_Score": "90%"
   		}],
 },{
-"Jd_Id":"1003",
+"Jd_Id":"4",
 "jd_Name":"Big Data",
 "created_date":"12-02-2018",
 "Profiles": [{"email":"piyush@gmail.com",
@@ -294,7 +294,7 @@ b = [{
 	"Profile_Score": "72%"
   		}]
 },{
-"Jd_Id":"1004",
+"Jd_Id":"5",
 "jd_Name":"UI Developer",
 "created_date":"12-02-2018",
 "Profiles": [{"email":"ranjan@gmail.com",
