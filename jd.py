@@ -669,6 +669,18 @@ def newprof():
 	a["Attachment"] = "C:/RMS/Prof/" + str(a["Attachment"])
 	op = randint(1005,1100)
 	return jsonify(data = a)
+
+# Admin Page
+@app.route('/admin', methods=['GET'])
+def admin():
+	a = eval(request.args['questions'])
+	BU_Name = a["BU_Name"]
+	Designation = a['Designation']
+	Skill = a['Skill']
+	Exp = a['Exp']
+	a["Attachment"] = "C:/RMS/Prof/" + str(a["Attachment"])
+	op = randint(1005,1100)
+	return jsonify(data = op)
 	
 if __name__ == '__main__':
 	import logging
