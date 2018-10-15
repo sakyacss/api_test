@@ -193,6 +193,62 @@ b = [{
 	"Prof_ID": 141, 
 	"Profile": "www.google.com",
 	"Profile_Score": "78%"
+  		},
+	{"email":"nandagirisaiprashanth@gmail.com",
+	"Exp":5.3,
+	"Int_Stage": "Selected", 
+	"Name": "Saiprashanth Nandagiri", 		 	
+	"Phone_No": 8125617792, 
+	"Prof_ID": 142, 
+	"Profile": "www.google.com",
+	"Profile_Score": "80%"
+  		},
+{"email":"venkat.gonuguntla@gmail.com",
+	"Exp":2.9,
+	"Int_Stage": "Selected", 
+	"Name": "Venkata Naidu", 		 	
+	"Phone_No": 7093233114, 
+	"Prof_ID": 143, 
+	"Profile": "www.google.com",
+	"Profile_Score": "78%"
+  		},
+		
+{"email":"silpamaddipatla93@gmail.com",
+	"Exp":3.3,
+	"Int_Stage": "Selected", 
+	"Name": "Silpa Maddipatla", 		 	
+	"Phone_No": 8309236795, 
+	"Prof_ID": 144, 
+	"Profile": "www.google.com",
+	"Profile_Score": "72%"
+  		},
+{"email":"tsharankumar19@gmail.com",
+	"Exp":2.4,
+	"Int_Stage": "Selected", 
+	"Name": "T Sharan Kumar", 		 	
+	"Phone_No": 9160348626, 
+	"Prof_ID": 145, 
+	"Profile": "www.google.com",
+	"Profile_Score": "76%"
+  		},
+
+{"email":"navneetnadha@gmail.com",
+	"Exp":2.2,
+	"Int_Stage": "Selected", 
+	"Name": "Navneet Kamboj", 		 	
+	"Phone_No": 9914654537, 
+	"Prof_ID": 146, 
+	"Profile": "www.google.com",
+	"Profile_Score": "89%"
+  		},	
+{"email":"ashujoshi.mca@gmail.com",
+	"Exp":6,
+	"Int_Stage": "Selected", 
+	"Name": "Ashutosh Joshi", 		 	
+	"Phone_No": 9560413253, 
+	"Prof_ID": 147, 
+	"Profile": "www.google.com",
+	"Profile_Score": "70%"
   		}]
 }, {
 "Jd_Id":"2",
