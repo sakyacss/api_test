@@ -126,10 +126,10 @@ b = [{
 "jd_Name":"Apple Data Engineer",
 "created_date":"01-08-2018",
 "Profiles": [{"email":"harmanjeetsingh121@gmail.com",
-	"Exp":2,
+	"Exp":"Junior Data Engineer,
 	"Int_Stage": "Selected", 
 	"Name": "Harmanjeet", 		
-	"Phone_No": 9540886855, 
+	"Phone_No": "Scala, Python", 
 	"Prof_ID": 135, 
 	"Profile": "www.google.com",
 	"Profile_Score": "82%"
