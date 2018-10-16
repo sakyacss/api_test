@@ -251,8 +251,8 @@ b = [{
 	"Profile_Score": "70%"
   		},
 	    {"email":"bheemeshr@gmail.com",
-	"Exp":18,
-	"Int_Stage": "Lead Data Engineer", 
+	"Exp":"Lead Dat Engineer",
+	"Int_Stage": "Selected", 
 	"Name": "B Bheemeswar Reddy", 		 	
 	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
 	"Prof_ID": 147, 
