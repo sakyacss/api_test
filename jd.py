@@ -844,7 +844,7 @@ feedback= [{"Jd_Id":"2",
 "Skill_Score":[{"Skill":"Scala","Score":"5"},{"Skill":"No SQL / SQL DB", "Score":"5"},{"Skill":"Hadoop (Oozie, Spark and Hive)", "Score":"5"} , {"Skill":"Storage / Retrieval", "Score":"5"}, {"Skill":"Problem Solving", "Score":"5"}, {"Skill":"Communication","Score":"6"}],
 "L1_Feedback":"Candidate is good in Hadoop, Map/Reduce(using Java), Scala, Spark. He is interested in learning new technologies",
 "L1_Overall_Rating":"5",
-"L2_Feeback":"Fit for the role. Good hans on experience",
+"L2_Feeback":"Fit for the role. Good hands-on experience",
 "L2_Overall_Rating": "6"
 }]
 
