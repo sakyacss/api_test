@@ -129,7 +129,7 @@ b = [{
 	"Exp":"Junior Data Engineer",
 	"Int_Stage": "Selected", 
 	"Name": "Harmanjeet", 		
-	"Phone_No": "Scala, Python", 
+	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
 	"Prof_ID": 135, 
 	"Profile": "www.google.com",
 	"Profile_Score": "82%"
@@ -139,7 +139,7 @@ b = [{
 	"Exp":2.1,
 	"Int_Stage": "Selected", 
 	"Name": "Kunal Raunak", 			
-	"Phone_No": 9494821792, 
+	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
 	"Prof_ID": 136, 
 	"Profile": "www.google.com",
 	"Profile_Score": "76%"
@@ -159,7 +159,7 @@ b = [{
 	"Exp":6,
 	"Int_Stage": "Selected", 
 	"Name": "Kishore Yakkala", 		 	
-	"Phone_No": 7204410899, 
+	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
 	"Prof_ID": 138, 
 	"Profile": "www.google.com",
 	"Profile_Score": "86%"
@@ -169,7 +169,7 @@ b = [{
 	"Exp":7,
 	"Int_Stage": "Selected", 
 	"Name": "Ladle Patel", 		 	
-	"Phone_No": 9742123444, 
+	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
 	"Prof_ID": 139, 
 	"Profile": "www.google.com",
 	"Profile_Score": "83%"
@@ -179,7 +179,7 @@ b = [{
 	"Exp":10,
 	"Int_Stage": "Selected", 
 	"Name": "KVND Rajasekar", 		 	
-	"Phone_No": 9160062299, 
+	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
 	"Prof_ID": 140, 
 	"Profile": "www.google.com",
 	"Profile_Score": "72%"
@@ -189,7 +189,7 @@ b = [{
 	"Exp":10,
 	"Int_Stage": "Selected", 
 	"Name": "Aravind Kumar Anugula", 		 	
-	"Phone_No": 8197627896, 
+	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
 	"Prof_ID": 141, 
 	"Profile": "www.google.com",
 	"Profile_Score": "78%"
@@ -198,7 +198,7 @@ b = [{
 	"Exp":5.3,
 	"Int_Stage": "Selected", 
 	"Name": "Saiprashanth Nandagiri", 		 	
-	"Phone_No": 8125617792, 
+	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
 	"Prof_ID": 142, 
 	"Profile": "www.google.com",
 	"Profile_Score": "80%"
@@ -207,7 +207,7 @@ b = [{
 	"Exp":2.9,
 	"Int_Stage": "Selected", 
 	"Name": "Venkata Naidu", 		 	
-	"Phone_No": 7093233114, 
+	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
 	"Prof_ID": 143, 
 	"Profile": "www.google.com",
 	"Profile_Score": "78%"
@@ -217,7 +217,7 @@ b = [{
 	"Exp":3.3,
 	"Int_Stage": "Selected", 
 	"Name": "Silpa Maddipatla", 		 	
-	"Phone_No": 8309236795, 
+	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
 	"Prof_ID": 144, 
 	"Profile": "www.google.com",
 	"Profile_Score": "72%"
@@ -226,7 +226,7 @@ b = [{
 	"Exp":2.4,
 	"Int_Stage": "Selected", 
 	"Name": "T Sharan Kumar", 		 	
-	"Phone_No": 9160348626, 
+	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
 	"Prof_ID": 145, 
 	"Profile": "www.google.com",
 	"Profile_Score": "76%"
@@ -236,7 +236,7 @@ b = [{
 	"Exp":2.2,
 	"Int_Stage": "Selected", 
 	"Name": "Navneet Kamboj", 		 	
-	"Phone_No": 9914654537, 
+	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
 	"Prof_ID": 146, 
 	"Profile": "www.google.com",
 	"Profile_Score": "89%"
@@ -245,7 +245,7 @@ b = [{
 	"Exp":6,
 	"Int_Stage": "Selected", 
 	"Name": "Ashutosh Joshi", 		 	
-	"Phone_No": 9560413253, 
+	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
 	"Prof_ID": 147, 
 	"Profile": "www.google.com",
 	"Profile_Score": "70%"
