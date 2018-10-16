@@ -139,7 +139,7 @@ b = [{
 	"Exp":"Data Engineer",
 	"Int_Stage": "Selected", 
 	"Name": "Kunal Raunak", 			
-	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
+	"Phone_No": "Scala, Spark, HDFS, MapReduce, Sqoop", 
 	"Prof_ID": 136, 
 	"Profile": "www.google.com",
 	"Profile_Score": "76%"
@@ -149,7 +149,7 @@ b = [{
 	"Exp":"Data Engineer",
 	"Int_Stage": "Selected", 
 	"Name": "Siddhrtha Sanyal", 		 	
-	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
+	"Phone_No": "Scala, Spark, Hadoop, Hive, Kafka", 
 	"Prof_ID": 137, 
 	"Profile": "www.google.com",
 	"Profile_Score": "79%"
@@ -179,7 +179,7 @@ b = [{
 	"Exp":"Lead Data Engineer",
 	"Int_Stage": "Selected", 
 	"Name": "KVND Rajasekar", 		 	
-	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
+	"Phone_No": "HIVE, PIG, Spark, HDFS, Sqoop, Flume, Impala,Scala, Python", 
 	"Prof_ID": 140, 
 	"Profile": "www.google.com",
 	"Profile_Score": "72%"
@@ -189,7 +189,7 @@ b = [{
 	"Exp":"Lead Data Engineer",
 	"Int_Stage": "Selected", 
 	"Name": "Mohit Kundra", 		 	
-	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
+	"Phone_No": "Hadoop, Hive, Pig, Cassandra, Spark", 
 	"Prof_ID": 141, 
 	"Profile": "www.google.com",
 	"Profile_Score": "78%"
@@ -207,7 +207,7 @@ b = [{
 	"Exp":"Data Engineer",
 	"Int_Stage": "Selected", 
 	"Name": "Venkata Naidu", 		 	
-	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
+	"Phone_No": "Spark, Kafka, Hadoop, Scala, Java Technologies", 
 	"Prof_ID": 143, 
 	"Profile": "www.google.com",
 	"Profile_Score": "78%"
@@ -217,7 +217,7 @@ b = [{
 	"Exp":"Lead Data Engineer",
 	"Int_Stage": "Selected", 
 	"Name": "Silpa Maddipatla", 		 	
-	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
+	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python, MongoDB", 
 	"Prof_ID": 144, 
 	"Profile": "www.google.com",
 	"Profile_Score": "72%"
@@ -226,7 +226,7 @@ b = [{
 	"Exp":"Data Engineer",
 	"Int_Stage": "Selected", 
 	"Name": "T Sharan Kumar", 		 	
-	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
+	"Phone_No": "Java, Hadoop, AWS, HDFS, Hive, Spark and MapReduce", 
 	"Prof_ID": 145, 
 	"Profile": "www.google.com",
 	"Profile_Score": "76%"
@@ -236,7 +236,7 @@ b = [{
 	"Exp":"Data Engineer",
 	"Int_Stage": "Selected", 
 	"Name": "Navneet Kamboj", 		 	
-	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
+	"Phone_No": "Apache Spark, Hadoop Map Reduce (Python), Hive, Scala", 
 	"Prof_ID": 146, 
 	"Profile": "www.google.com",
 	"Profile_Score": "89%"
@@ -245,16 +245,16 @@ b = [{
 	"Exp":"Lead Data Engineer",
 	"Int_Stage": "Selected", 
 	"Name": "Ashutosh Joshi", 		 	
-	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
+	"Phone_No": "Spark, Hadoop, Hive, MapReduce, Sqoop, HBase, Kafka, ELK, Zookeeper", 
 	"Prof_ID": 147, 
 	"Profile": "www.google.com",
 	"Profile_Score": "70%"
   		},
 	    {"email":"bheemeshr@gmail.com",
-	"Exp":"Lead Dat Engineer",
-	"Int_Stage": "Selected", 
+	"Exp":18,
+	"Int_Stage": "Lead Data Engineer", 
 	"Name": "B Bheemeswar Reddy", 		 	
-	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
+	"Phone_No": "Hadoop, Hive, Spark ML, Scala, Play Framework, Kafka", 
 	"Prof_ID": 147, 
 	"Profile": "www.google.com",
 	"Profile_Score": "76%"
