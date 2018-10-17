@@ -166,7 +166,7 @@ b = [{
   		},
 		{
 	"email":"lp.dataninja@gmail.com",
-	"Exp":"Data Engineer",
+	"Exp":"Data Scientist",
 	"Int_Stage": "Selected", 
 	"Name": "Ladle Patel", 		 	
 	"Phone_No": "Spark, TensorFlow, KerasSpark, Cassandra & MongoDB, Python", 
@@ -276,7 +276,52 @@ b = [{
 	"Prof_ID": 150, 
 	"Profile": "www.google.com",
 	"Profile_Score": "81%"
-  		}]
+  		},
+	    {"email":" dhiranjamana27@gmail.com",
+	"Exp":"Data Engineer",
+	"Int_Stage": "Selected", 
+	"Name": "Dhiran Jamana", 		 	
+	"Phone_No": "Hadoop, Hive, Spark ML,TensorFlow,Python", 
+	"Prof_ID": 151, 
+	"Profile": "www.google.com",
+	"Profile_Score": "89%"
+  		},
+		{"email":"Nishanth.Nayakanti@csscorp.com",
+	"Exp":"Lead Data Engineer",
+	"Int_Stage": "Selected", 
+	"Name": "Nishant Nayakanti", 		 	
+	"Phone_No": "Scala, Spark, Python, Java, Javascript,Hadoop, Hive, pig, TensorFlow", 
+	"Prof_ID": 152, 
+	"Profile": "www.google.com",
+	"Profile_Score": "87%"
+  		},
+		{"email":"puneet.reddy@csscorp.com",
+	"Exp":"Lead Data Engineer",
+	"Int_Stage": "Selected" , 
+	"Name": "Puneet Reddy", 		 	
+	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python, Oozie, Kafka", 
+	"Prof_ID": 153, 
+	"Profile": "www.google.com",
+	"Profile_Score": "89%"
+  		},{"email":"shalaj.vibhore@csscorp.com",
+	"Exp":"Data Scientist",
+	"Int_Stage": "Selected", 
+	"Name": "Shalaj Vibhore", 		 	
+	"Phone_No": "Python, C++, Java,Apache Beam, Django, Hadoop, Hive, TensorFlow", 
+	"Prof_ID": 154, 
+	"Profile": "www.google.com",
+	"Profile_Score": "87%"
+  		},
+		{"email":"sakya.maiti@csscorp.com",
+	"Exp":"Data Scientist",
+	"Int_Stage": "Selected" , 
+	"Name": "Sakya Maiti", 		 	
+	"Phone_No": "Python, R ,  Flask, Dialogflow, Apache Beam, Hadoop", 
+	"Prof_ID": 155, 
+	"Profile": "www.google.com",
+	"Profile_Score": "89%"
+  		}
+	    ]
 }, {
 "Jd_Id":"2",
 "jd_Name":".Net",
