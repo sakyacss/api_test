@@ -953,6 +953,52 @@ def admin():
 	a["Attachment"] = "C:/RMS/Prof/" + str(a["Attachment"])
 	op = randint(1005,1100)
 	return jsonify(data = op)
+
+x = [{"Prof_ID":"123",
+"email":"sakya@gmail.com",
+"Name": "Sakya Maiti",
+"JD_ID":"1",
+"JD_Name":"Apple Data Engineer",
+"BU_Name":"DES",
+"Question_Bank":[{"q_id":"1", "Question": "What is BigQuery","Option1":"aaaa","Option2":"bbbb","Option3":"cccc","Option4":"dddd","Answer":"bbbb","Marks":"1"},
+{"q_id":"2", "Question": "What is BigQuery","Option1":"aaaa","Option2":"bbbb","Option3":"cccc","Option4":"dddd","Answer":"bbbb","Marks":"1"},
+{"q_id":"3", "Question": "What is BigQuery","Option1":"aaaa","Option2":"bbbb","Option3":"cccc","Option4":"dddd","Answer":"bbbb","Marks":"1"},
+{"q_id":"4", "Question": "What is BigQuery","Option1":"aaaa","Option2":"bbbb","Option3":"cccc","Option4":"dddd","Answer":"bbbb","Marks":"1"},
+{"q_id":"5", "Question": "What is BigQuery","Option1":"aaaa","Option2":"bbbb","Option3":"cccc","Option4":"dddd","Answer":"bbbb","Marks":"1"},
+{"q_id":"6", "Question": "What is BigQuery","Option1":"aaaa","Option2":"bbbb","Option3":"cccc","Option4":"dddd","Answer":"bbbb","Marks":"1"},
+{"q_id":"7", "Question": "What is BigQuery","Option1":"aaaa","Option2":"bbbb","Option3":"cccc","Option4":"dddd","Answer":"bbbb","Marks":"1"},
+{"q_id":"8", "Question": "What is BigQuery","Option1":"aaaa","Option2":"bbbb","Option3":"cccc","Option4":"dddd","Answer":"bbbb","Marks":"1"},
+{"q_id":"9", "Question": "What is BigQuery","Option1":"aaaa","Option2":"bbbb","Option3":"cccc","Option4":"dddd","Answer":"bbbb","Marks":"1"},
+{"q_id":"10", "Question": "What is BigQuery","Option1":"aaaa","Option2":"bbbb","Option3":"cccc","Option4":"dddd","Answer":"bbbb","Marks":"1"}]
+},
+{"Prof_ID":"124",
+"email":"varun@gmail.com",
+"Name": "Varun Anant",
+"JD_ID":"1",
+"JD_Name":"Apple Data Engineer",
+"BU_Name":"DES",
+"Question_Bank":[{"q_id":"1", "Question": "What is BigQuery","Option1":"aaaa","Option2":"bbbb","Option3":"cccc","Option4":"dddd","Answer":"bbbb","Marks":"1"},
+{"q_id":"2", "Question": "What is BigQuery","Option1":"aaaa","Option2":"bbbb","Option3":"cccc","Option4":"dddd","Answer":"bbbb","Marks":"1"},
+{"q_id":"3", "Question": "What is BigQuery","Option1":"aaaa","Option2":"bbbb","Option3":"cccc","Option4":"dddd","Answer":"bbbb","Marks":"1"},
+{"q_id":"4", "Question": "What is BigQuery","Option1":"aaaa","Option2":"bbbb","Option3":"cccc","Option4":"dddd","Answer":"bbbb","Marks":"1"},
+{"q_id":"5", "Question": "What is BigQuery","Option1":"aaaa","Option2":"bbbb","Option3":"cccc","Option4":"dddd","Answer":"bbbb","Marks":"1"},
+{"q_id":"6", "Question": "What is BigQuery","Option1":"aaaa","Option2":"bbbb","Option3":"cccc","Option4":"dddd","Answer":"bbbb","Marks":"1"},
+{"q_id":"7", "Question": "What is BigQuery","Option1":"aaaa","Option2":"bbbb","Option3":"cccc","Option4":"dddd","Answer":"bbbb","Marks":"1"},
+{"q_id":"8", "Question": "What is BigQuery","Option1":"aaaa","Option2":"bbbb","Option3":"cccc","Option4":"dddd","Answer":"bbbb","Marks":"1"},
+{"q_id":"9", "Question": "What is BigQuery","Option1":"aaaa","Option2":"bbbb","Option3":"cccc","Option4":"dddd","Answer":"bbbb","Marks":"1"},
+{"q_id":"10", "Question": "What is BigQuery","Option1":"aaaa","Option2":"bbbb","Option3":"cccc","Option4":"dddd","Answer":"bbbb","Marks":"1"}]
+}]
+
+@app.route('/onlinetest', methods = ['GET'])
+def online_test():
+	a = eval(request.args['questions'])
+	Prof_ID = a["profid"]
+	Email = a["email"]
+	some = []
+	for i in range(0,len(x)):
+		if(x[i]["Prof_ID"]==str(Prof_ID) and x[i]["email"]==str(Email)):
+			some.append(x[i])
+	return jsonify(data = some)
 	
 if __name__ == '__main__':
 	import logging
