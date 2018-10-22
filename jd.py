@@ -999,6 +999,48 @@ def online_test():
 		if(x[i]["Prof_ID"]==str(Prof_ID) and x[i]["email"]==str(Email)):
 			some.append(x[i])
 	return jsonify(data = some)
+
+@app.route('/executive-dashboard', methods = ['GET'])
+def executive_dashboard():
+	a= [{"JD_Count":"13",
+	"Tot_Prof_Received" : "500",
+	"Offers_Accepted": "120",
+	"Offers_Rejected":"20",
+	"Last_3_month_stats":[{"Month": "October","Prof_Received":"100","L0_Cleared":"90","L1_Cleared":"40","L2_Cleared":"20"},
+	{"Month": "September","Prof_Received":"100","L0_Cleared":"90","L1_Cleared":"40","L2_Cleared":"20"},
+	{"Month": "August","Prof_Received":"100","L0_Cleared":"90","L1_Cleared":"40","L2_Cleared":"20"}],
+	"Last_3_Offered_Profiles":[{
+	"email":"vinod@gmail.com",
+	"Exp":8,
+	"Int_Stage": "Selected", 
+	"Name": "Vinod", 		 	
+	"Phone_No": 1234567890, 
+	"Prof_ID": 131, 
+	"Profile": "www.google.com",
+	"Profile_Score": "72%"
+  		},{
+	"email":"vinod@gmail.com",
+	"Exp":8,
+	"Int_Stage": "Selected", 
+	"Name": "Vinod", 		 	
+	"Phone_No": 1234567890, 
+	"Prof_ID": 131, 
+	"Profile": "www.google.com",
+	"Profile_Score": "72%"
+  		},
+		{
+	"email":"vinod@gmail.com",
+	"Exp":8,
+	"Int_Stage": "Selected", 
+	"Name": "Vinod", 		 	
+	"Phone_No": 1234567890, 
+	"Prof_ID": 131, 
+	"Profile": "www.google.com",
+	"Profile_Score": "72%"
+  		}]
+		}]
+		
+	return jsonify(data = a)
 	
 if __name__ == '__main__':
 	import logging
