@@ -743,7 +743,7 @@ feedback= [{"Jd_Id":"2",
 "L0_Feedback":"Moderate puzzel solving skills.",
 "L0_Rating": "6",
 "Skill_Score":[{"Skill":"Scala","Score":"8"},{"Skill":"No SQL / SQL DB", "Score":"7"},{"Skill":"Hadoop (Oozie, Spark and Hive)", "Score":"9"} , {"Skill":"Storage / Retrieval", "Score":"6"}, {"Skill":"Problem Solving", "Score":"8"}, {"Skill":"Communication","Score":"8"}],
-"L1_Feedback":"Very good understanding on coding and analytical thought process",
+"L1_Feedback":"He Doesn't have much experience in scala, but his experience level of Java is good and I think he can pick up very fast. He has very  good experience in  Hive and spark. He has basic  experience in Rest service. He has good knowledge of NoSQL databases His way of analysis is alright",
 "L1_Overall_Rating":"8",
 "L2_Feeback":"Project Experience: Has good hands-on experience in Big Data Project. Has been involved in 4 Projects.Problem Solving: Was able to solve 2/3 problems in a reasonable time. Has good aptitude in Mathematics. Algorithmic Question : Has done only a moderate level complexity. Big Data Architecture : Good conceptual knowledge of Big Data but not an architect material",
 "L2_Overall_Rating": "7"
