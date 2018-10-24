@@ -52,7 +52,8 @@ def addjd():
 "Created_Date":"30-06-2018",
 "Received_profile":198,
 "Interview_completed":94,
-"Yet_to_schedule":18 
+"Yet_to_schedule":18,
+"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/jd-upload/AppleJD.docx" 
 }]
 
 
