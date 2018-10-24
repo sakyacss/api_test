@@ -92,7 +92,8 @@ b = [{
 	"Phone_No": "Spark, Hadoop, MapReduce, Sqoop, HDFS, Kafka", 
 	"Prof_ID": 135, 
 	"Profile": "www.google.com",
-	"Profile_Score": "82%"
+	"Profile_Score": "82%",
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/HarmanjeetSingh_135.pdf"
   		},
 		{
 	"email":"raunak190r200@gmail.com",
@@ -145,7 +146,8 @@ b = [{
 	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
 	"Prof_ID": 142, 
 	"Profile": "www.google.com",
-	"Profile_Score": "80%"
+	"Profile_Score": "80%",
+	 "Attachments":""
   		},
 {"email":"venkat.gonuguntla@gmail.com",
 	"Exp":"Data Engineer",
@@ -216,7 +218,8 @@ b = [{
 	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
 	"Prof_ID": 149, 
 	"Profile": "www.google.com",
-	"Profile_Score": "70%"
+	"Profile_Score": "70%",
+	"Attachments":""
   		},
 		{"email":"sekh09@gmail.com",
 	"Exp":"Lead Data Engineer",
@@ -225,7 +228,8 @@ b = [{
 	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python", 
 	"Prof_ID": 150, 
 	"Profile": "www.google.com",
-	"Profile_Score": "81%"
+	"Profile_Score": "81%",
+	"Attachments":""
   		},
 	    {"email":" dhiranjamana27@gmail.com",
 	"Exp":"Data Engineer",
@@ -244,7 +248,8 @@ b = [{
 	"Phone_No": "Scala, Spark, Python, Java, Javascript,Hadoop, Hive, pig, TensorFlow", 
 	"Prof_ID": 152, 
 	"Profile": "www.google.com",
-	"Profile_Score": "87%"
+	"Profile_Score": "87%",
+	"Attachments":""
   		},
 		{"email":"puneet.reddy@csscorp.com",
 	"Exp":"Lead Data Engineer",
@@ -253,7 +258,8 @@ b = [{
 	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python, Oozie, Kafka", 
 	"Prof_ID": 153, 
 	"Profile": "www.google.com",
-	"Profile_Score": "89%"
+	"Profile_Score": "89%",
+	"Attachments":""
   		},{"email":"shalaj.vibhore@csscorp.com",
 	"Exp":"Data Scientist",
 	"Int_Stage": "Selected", 
@@ -261,7 +267,8 @@ b = [{
 	"Phone_No": "Python, C++, Java,Apache Beam, Django, Hadoop, Hive, TensorFlow", 
 	"Prof_ID": 154, 
 	"Profile": "www.google.com",
-	"Profile_Score": "87%"
+	"Profile_Score": "87%",
+	"Attachments":""
   		},
 		{"email":"sakya.maiti@csscorp.com",
 	"Exp":"Data Scientist",
@@ -270,7 +277,8 @@ b = [{
 	"Phone_No": "Python, R ,  Flask, Dialogflow, Apache Beam, Hadoop", 
 	"Prof_ID": 155, 
 	"Profile": "www.google.com",
-	"Profile_Score": "72%"
+	"Profile_Score": "72%",
+	"Attachments":""
   		}
 	    ]
 }] 
