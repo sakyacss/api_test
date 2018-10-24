@@ -249,7 +249,7 @@ b = [{
 	"Prof_ID": 152, 
 	"Profile": "www.google.com",
 	"Profile_Score": "87%",
-	"Attachments":""
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Nishanth_Nayakanti_152.pptx"
   		},
 		{"email":"puneet.reddy@csscorp.com",
 	"Exp":"Lead Data Engineer",
@@ -259,7 +259,7 @@ b = [{
 	"Prof_ID": 153, 
 	"Profile": "www.google.com",
 	"Profile_Score": "89%",
-	"Attachments":""
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Puneet_Reddy_153.pptx"
   		},{"email":"shalaj.vibhore@csscorp.com",
 	"Exp":"Data Scientist",
 	"Int_Stage": "Selected", 
@@ -268,7 +268,7 @@ b = [{
 	"Prof_ID": 154, 
 	"Profile": "www.google.com",
 	"Profile_Score": "87%",
-	"Attachments":""
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Shalaj_Vibhore_154.pptx"
   		},
 		{"email":"sakya.maiti@csscorp.com",
 	"Exp":"Data Scientist",
@@ -278,7 +278,7 @@ b = [{
 	"Prof_ID": 155, 
 	"Profile": "www.google.com",
 	"Profile_Score": "72%",
-	"Attachments":""
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Sakya_Maiti_155.pptx"
   		}
 	    ]
 }] 
