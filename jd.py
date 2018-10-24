@@ -154,7 +154,8 @@ b = [{
 	"Phone_No": "Spark, Kafka, Hadoop, Scala, Java Technologies", 
 	"Prof_ID": 143, 
 	"Profile": "www.google.com",
-	"Profile_Score": "78%"
+	"Profile_Score": "78%",
+ 	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Venkata_Naidu_143.doc"
   		},
 		
 {"email":"silpamaddipatla93@gmail.com",
@@ -164,7 +165,8 @@ b = [{
 	"Phone_No": "Scala, Spark, Hadoop, MapReduce, Python, MongoDB", 
 	"Prof_ID": 144, 
 	"Profile": "www.google.com",
-	"Profile_Score": "72%"
+	"Profile_Score": "72%",
+ 	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/silpamaddipatla_144.doc"
   		},
 {"email":"tsharankumar19@gmail.com",
 	"Exp":"Data Engineer",
@@ -184,7 +186,8 @@ b = [{
 	"Phone_No": "Apache Spark, Hadoop Map Reduce (Python), Hive, Scala", 
 	"Prof_ID": 146, 
 	"Profile": "www.google.com",
-	"Profile_Score": "89%"
+	"Profile_Score": "89%",
+ 	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Navneet_Kamboj_146.pdf"
   		},	
 {"email":"ashujoshi.mca@gmail.com",
 	"Exp":"Lead Data Engineer",
@@ -193,7 +196,8 @@ b = [{
 	"Phone_No": "Spark, Hadoop, Hive, MapReduce, Sqoop, HBase, Kafka, ELK, Zookeeper", 
 	"Prof_ID": 147, 
 	"Profile": "www.google.com",
-	"Profile_Score": "70%"
+	"Profile_Score": "70%",
+ 	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Ashutosh_Joshi_147.docx"
   		},
 	    {"email":"bheemeshr@gmail.com",
 	"Exp":"Lead Data Engineer",
@@ -230,7 +234,8 @@ b = [{
 	"Phone_No": "Hadoop, Hive, Spark ML,TensorFlow,Python", 
 	"Prof_ID": 151, 
 	"Profile": "www.google.com",
-	"Profile_Score": "89%"
+	"Profile_Score": "89%",
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Dhiran_Jamana_151.pdf"
   		},
 		{"email":"Nishanth.Nayakanti@csscorp.com",
 	"Exp":"Lead Data Engineer",
