@@ -147,7 +147,7 @@ b = [{
 	"Prof_ID": 142, 
 	"Profile": "www.google.com",
 	"Profile_Score": "80%",
-	 "Attachments":""
+	 "Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Saiprashanth_Nandagiri_142.doc"
   		},
 {"email":"venkat.gonuguntla@gmail.com",
 	"Exp":"Data Engineer",
@@ -219,7 +219,7 @@ b = [{
 	"Prof_ID": 149, 
 	"Profile": "www.google.com",
 	"Profile_Score": "70%",
-	"Attachments":""
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Srilatha_Bandari_149.doc"
   		},
 		{"email":"sekh09@gmail.com",
 	"Exp":"Lead Data Engineer",
@@ -229,7 +229,7 @@ b = [{
 	"Prof_ID": 150, 
 	"Profile": "www.google.com",
 	"Profile_Score": "81%",
-	"Attachments":""
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Pulagam_Sudha_Sekhar_150.docx"
   		},
 	    {"email":" dhiranjamana27@gmail.com",
 	"Exp":"Data Engineer",
