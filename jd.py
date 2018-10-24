@@ -33,7 +33,7 @@ def authenticate():
 	a = eval(request.args['questions'])
 	id = a["id"]
 	pwd = a["pwd"]
-	if (id == "admin@csscorp.com" and pwd == "pass123"):
+	if (id == "apple-admin" and pwd == "Drowassp321"):
 		b = [{"login":1, "sid" : 1001, "role" : "TA"}]
 	else:
 		b = [{"login":0, "sid" : 0, "role" : ""}]
