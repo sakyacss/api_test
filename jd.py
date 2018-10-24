@@ -102,7 +102,8 @@ b = [{
 	"Phone_No": "Scala, Spark, HDFS, MapReduce, Sqoop", 
 	"Prof_ID": 136, 
 	"Profile": "www.google.com",
-	"Profile_Score": "76%"
+	"Profile_Score": "76%",
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Kunal_Raunak_136.docx"
   		},
 		{
 	"email":"kishorekumar522@gmail.com",
@@ -112,7 +113,8 @@ b = [{
 	"Phone_No": "Scala, Spark,Apache Tomcat, Oracle Weblogic servers, Cassandra", 
 	"Prof_ID": 138, 
 	"Profile": "www.google.com",
-	"Profile_Score": "86%"
+	"Profile_Score": "86%",
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Kishore_Yakkala_138.doc"
   		},
 		{
 	"email":"lp.dataninja@gmail.com",
@@ -122,7 +124,8 @@ b = [{
 	"Phone_No": "Spark, TensorFlow, KerasSpark, Cassandra & MongoDB, Python", 
 	"Prof_ID": 139, 
 	"Profile": "www.google.com",
-	"Profile_Score": "83%"
+	"Profile_Score": "83%",
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Ladle_Patel_139.pdf"
   		},
 		{
 	"email":"mohit_516@yahoo.co.in",
@@ -132,7 +135,8 @@ b = [{
 	"Phone_No": "Hadoop, Hive, Pig, Cassandra, Spark", 
 	"Prof_ID": 141, 
 	"Profile": "www.google.com",
-	"Profile_Score": "78%"
+	"Profile_Score": "78%",
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Mohit_Kundra_141.pdf"
   		},
 	{"email":"nandagirisaiprashanth@gmail.com",
 	"Exp":"Lead Data Engineer",
@@ -169,7 +173,8 @@ b = [{
 	"Phone_No": "Java, Hadoop, AWS, HDFS, Hive, Spark and MapReduce", 
 	"Prof_ID": 145, 
 	"Profile": "www.google.com",
-	"Profile_Score": "76%"
+	"Profile_Score": "76%",
+ 	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/T_Sharan+_Kumar_145.pdf"
   		},
 
 {"email":"navneetnadha@gmail.com",
@@ -197,7 +202,8 @@ b = [{
 	"Phone_No": "Hadoop, Hive, Spark ML, Scala, Play Framework, Kafka", 
 	"Prof_ID": 148, 
 	"Profile": "www.google.com",
-	"Profile_Score": "76%"
+	"Profile_Score": "76%",
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/BBheemeswarReddy_148.docx"
   		},
 		{"email":"srilathabandari30@gmail.com",
 	"Exp":"Lead Data Engineer",
