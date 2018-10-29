@@ -563,6 +563,7 @@ def newprof():
 	a = eval(request.args['questions'])
 	JD_ID = a["JD_ID"]
 	First_Name = a['First_Name']
+	Middle_Name = a['Middle_Name']
 	Last_Name = a['Last_Name']
 	Email  = a['Email']
 	Phone_No = a['Phone_No']
