@@ -566,9 +566,10 @@ def newprof():
 	Last_Name = a['Last_Name']
 	Email  = a['Email']
 	Phone_No = a['Phone_No']
+	Experience = a['Exp']
 	a["Attachment"] = "C:/RMS/Prof/" + str(a["Attachment"])
 	op = randint(1005,1100)
-	return jsonify(data = a)
+	return jsonify(data = op)
 
 # Admin Page
 @app.route('/admin', methods=['GET'])
