@@ -631,14 +631,6 @@ def online_test():
 			some.append(x[i])
 	return jsonify(data = some)
 
-@app.route('/onlinetest-result', methods = ['GET'])
-def online_test():
-	a = eval(request.args['questions'])
-	Prof_ID = a["profid"]
-	Score = a["score"]
-	op = randint(1005,1100)
-	return jsonify(data = op)
-
 @app.route('/executive-dashboard', methods = ['GET'])
 def executive_dashboard():
 	a= [{"JD_Count":"13",
