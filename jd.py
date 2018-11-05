@@ -185,7 +185,7 @@ b = [{
 	    {"email":" dhiranjamana27@gmail.com",
 	"Exp":"Data Engineer - Tech aspect solutions",
 	"Int_Stage": "Selected", 
-	"Name": "Dhiran Jamana ( (IIT Chennai)", 		 	
+	"Name": "Dhiran Jamana (IIT Chennai)", 		 	
 	"Phone_No": "Hadoop, Hive, Spark ML,TensorFlow,Python", 
 	"Prof_ID": 151, 
 	"Profile": "www.google.com",
