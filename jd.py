@@ -437,9 +437,11 @@ def newprof():
 	Middle_Name = a['Middle_Name']
 	Last_Name = a['Last_Name']
 	Email  = a['Email']
+	University = a['University']
 	Phone_No = a['Phone_No']
 	Experience = a['Exp']
 	Emp_Skill = a['Emp_Skill']
+	Last_Comp_Name = a['Last_Comp_Name]
 	a["Attachment"] = "C:/RMS/Prof/" + str(a["Attachment"])
 	op = randint(1005,1100)
 	return jsonify(data = op)
