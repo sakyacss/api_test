@@ -254,7 +254,93 @@ b = [{
 	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Sakya_Maiti_155.pptx"
   		}
 	    ]
-}] 
+},
+{
+"Jd_Id":"2",
+"jd_Name":"Apple Frontend Developer",
+"created_date":"01-11-2018",
+"Profiles": [{"email": "atchetna.92@gmail.com",
+	"Exp":"Frontend Developer - LI Technologies Private Limited ",
+	"Int_Stage": "Selected", 
+	"Name": "Chetna Mahajan (Guru Gobind Singh Indrapastha University)", 		
+	"Phone_No": "JavaScript, React Native Js, React Js with ESLint", 
+	"Prof_ID": 156, 
+	"Profile": "www.google.com",
+	"Profile_Score": "80%",
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/ChetnaMahajan_156.pdf"
+  		},
+		{"email": "sikindar247@gmail.com ",
+	"Exp":"Frontend Developer - Nineleaps Technologies",
+	"Int_Stage": "Selected", 
+	"Name": "Sikindar Mirza (Jawaharlal Nehru Technological University)", 		
+	"Phone_No": "JavaScript, Ruby, C, jQuery, ReactJS, Redux ", 
+	"Prof_ID": 157, 
+	"Profile": "www.google.com",
+	"Profile_Score": "85%",
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Sikindar_157.pdf"
+  		},
+		{"email": "jayendra.sharan@gmail.com",
+	"Exp":"Senior Software Engineer - MangoApps",
+	"Int_Stage": "Selected", 
+	"Name": "Jayendra Sharan (National Institute of Science & Technology)", 		
+	"Phone_No": "JAVASCRIPT, JQUERY, HTML, CSS, jQuery, ReactJS, Redux", 
+	"Prof_ID": 158, 
+	"Profile": "www.google.com",
+	"Profile_Score": "87%",
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Jayendra_158.pdf"
+  		},
+		{"email": "biswaspoulima36@gmail.com",
+	"Exp":"Frontend Developer - TATA CONSULTANCY SERVICES",
+	"Int_Stage": "Selected", 
+	"Name": "Poulima Biswas (College of Engineering & Management, Kolaghat)", 		
+	"Phone_No": "HTML5, CSS3, JavaScript(ES5/ES6), React, Redux, Redux Saga, Styled components, Reselect,  AngularJS, Bootstrap, Jquery, SASS, Ionic, Cordova, Underscore js, Eslint/Jshint ", 
+	"Prof_ID": 159, 
+	"Profile": "www.google.com",
+	"Profile_Score": "90%",
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Poulima_159.pdf"
+  		},
+		{"email": "Praveen.gupta1507@gmail.com ",
+	"Exp":"Software Developer - Natural Softwares Pvt Ltd Jaipur",
+	"Int_Stage": "Selected", 
+	"Name": "PRAVEEN GUPTA (Rajasthan Technical University)", 		
+	"Phone_No": "React JS, React Redux, Redux Thunk, HTML 5, CSS 3, Git, SQL", 
+	"Prof_ID": 160, 
+	"Profile": "www.google.com",
+	"Profile_Score": "75%",
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Praveen_160.pdf"
+  		},
+		{"email": "rajshekarus@gmail.com ",
+	"Exp":"UI Developer - Target Corporation",
+	"Int_Stage": "Selected", 
+	"Name": "Raja V (Osmania University)", 		
+	"Phone_No": "HTML5, JavaScript, JQuery, CSS ,BootStrap, AngularJS, ReactJS", 
+	"Prof_ID": 161, 
+	"Profile": "www.google.com",
+	"Profile_Score": "70%",
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Raja_161.pdf"
+  		},
+		{"email": "sjain2393@icloud.com ",
+	"Exp":"Junior Developer - ElivoTech Solution Pvt Ltd",
+	"Int_Stage": "Selected", 
+	"Name": "Shubham Jain (Bharathi Vidyapeeth Deemed University)", 		
+	"Phone_No": "HTML5, JavaScript, JQuery, CSS ,BootStrap, AngularJS, ReactJS", 
+	"Prof_ID": 162, 
+	"Profile": "www.google.com",
+	"Profile_Score": "75%",
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Shubham_162.pdf"
+  		},
+		{"email": "tejaswinisankuru@gmail.com",
+	"Exp":"Systems Engineer - Tata Consultancy Services ",
+	"Int_Stage": "Selected", 
+	"Name": "Teja Sankuru (Kakinada Institute of Engineering & Technology)", 		
+	"Phone_No": " JavaScript, MySQL, HTML5, CSS3,  jQuery, Angular, React, Bootstrap, Jasmine", 
+	"Prof_ID": 163, 
+	"Profile": "www.google.com",
+	"Profile_Score": "78%",
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Teja_163.pdf"
+  		}]
+		}
+] 
 #print(len(b))
 @app.route('/viewjd', methods=['GET'])
 def viewjd():
