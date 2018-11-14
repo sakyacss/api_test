@@ -54,6 +54,28 @@ def addjd():
 "Interview_completed":94,
 "Yet_to_schedule":18,
 "Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/jd-upload/AppleJD.docx" 
+},
+{
+"JD_Name": "Apple Frontend Developer",
+"ID":2,
+"No_of_Position":10,
+"Skill_Sets":"ReactJS, AngularJS, JavaScript, HTML5",
+"Created_Date":"01-11-2018",
+"Received_profile":20,
+"Interview_completed":15,
+"Yet_to_schedule":5,
+"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/jd-upload/AppleJD.docx" 
+},
+{
+"JD_Name": "Apple Backend Developer",
+"ID":3,
+"No_of_Position":10,
+"Skill_Sets":"Java, Spark, Hadoop",
+"Created_Date":"01-11-2018",
+"Received_profile":13,
+"Interview_completed":12,
+"Yet_to_schedule":1,
+"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/jd-upload/AppleJD.docx" 
 }]
 
 
