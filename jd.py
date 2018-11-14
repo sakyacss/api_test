@@ -404,22 +404,12 @@ b = [{
 	"Profile_Score": "85%",
 	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/ChetnaMahajan_156.pdf"
   		},
-		{"email": "sravanamv3@gmail.com ",
-	"Exp":"Senior Software Engineer - Qualcomm India",
-	"Int_Stage": "Selected", 
-	"Name": "Venu Madhu Kumar S (Sri Chaitanya jr.college)", 		
-	"Phone_No": "Java, REST webservices(JAX-RS), SOAP(JAX-WS), XML, JSON", 
-	"Prof_ID": 170, 
-	"Profile": "www.google.com",
-	"Profile_Score": "85%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/ChetnaMahajan_156.pdf"
-  		},
 		{"email": "cheekoti.vamc@gmail.com ",
 	"Exp":"Senior Software Engineer - Accenture",
 	"Int_Stage": "Selected", 
 	"Name": "Vamshi Cheekoti (Jawaharlal Nehru Technological University)", 		
 	"Phone_No": "AngularJs/Angular2/4/6*, NodeJs, JavaScript, Web Technologies, Core Java, Hibernate, Spring", 
-	"Prof_ID": 171, 
+	"Prof_ID": 170, 
 	"Profile": "www.google.com",
 	"Profile_Score": "85%",
 	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/ChetnaMahajan_156.pdf"
