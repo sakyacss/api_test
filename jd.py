@@ -357,7 +357,7 @@ b = [{
 		{"email": "kchoudhary274@gmail.com",
 	"Exp":"Software Developer - Zensar Technology",
 	"Int_Stage": "Selected", 
-	"Name": "KKRISHNA CHOUDHARY (Vellore Institute of Technology)", 		
+	"Name": "KRISHNA CHOUDHARY (Vellore Institute of Technology)", 		
 	"Phone_No": "Java(Core), J2EE", 
 	"Prof_ID": 165, 
 	"Profile": "www.google.com",
