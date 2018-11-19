@@ -317,7 +317,7 @@ b = [{
 	"Prof_ID": 161, 
 	"Profile": "www.google.com",
 	"Profile_Score": "70%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/Raja_161.pdf"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/Raja_161.docx"
   		},
 		{"email": "sjain2393@icloud.com ",
 	"Exp":"Junior Developer - ElivoTech Solution Pvt Ltd",
