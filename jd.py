@@ -232,7 +232,7 @@ b = [{
 	"Prof_ID": 153, 
 	"Profile": "www.google.com",
 	"Profile_Score": "89%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/Puneet_Reddy_153.pptx"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/Puneet_Reddy_153.pdf"
   		},{"email":"shalaj.vibhore@csscorp.com",
 	"Exp":"Data Scientist",
 	"Int_Stage": "Selected", 
