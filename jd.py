@@ -64,7 +64,7 @@ def addjd():
 "Received_profile":20,
 "Interview_completed":15,
 "Yet_to_schedule":5,
-"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/jd-upload/AppleJD.docx" 
+"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/jd-upload/Frontend Dev - Apple.docx" 
 },
 {
 "JD_Name": "Apple Backend Developer",
