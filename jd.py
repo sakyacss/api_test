@@ -53,7 +53,7 @@ def addjd():
 "Received_profile":198,
 "Interview_completed":94,
 "Yet_to_schedule":18,
-"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/jd-upload/AppleJD.docx" 
+"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/jd-upload/AppleJD.docx" 
 },
 {
 "JD_Name": "Apple Frontend Developer",
@@ -64,7 +64,7 @@ def addjd():
 "Received_profile":20,
 "Interview_completed":15,
 "Yet_to_schedule":5,
-"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/jd-upload/AppleJD.docx" 
+"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/jd-upload/AppleJD.docx" 
 },
 {
 "JD_Name": "Apple Backend Developer",
@@ -75,7 +75,7 @@ def addjd():
 "Received_profile":13,
 "Interview_completed":12,
 "Yet_to_schedule":1,
-"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/jd-upload/AppleJD.docx" 
+"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/jd-upload/AppleJD.docx" 
 }]
 
 
@@ -115,7 +115,7 @@ b = [{
 	"Prof_ID": 135, 
 	"Profile": "www.google.com",
 	"Profile_Score": "82%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/HarmanjeetSingh_135.pdf"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/HarmanjeetSingh_135.pdf"
   		},
 		{
 	"email":"raunak190r200@gmail.com",
@@ -126,7 +126,7 @@ b = [{
 	"Prof_ID": 136, 
 	"Profile": "www.google.com",
 	"Profile_Score": "76%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Kunal_Raunak_136.docx"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/Kunal_Raunak_136.docx"
   		},
 		{
 	"email":"kishorekumar522@gmail.com",
@@ -137,7 +137,7 @@ b = [{
 	"Prof_ID": 138, 
 	"Profile": "www.google.com",
 	"Profile_Score": "86%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Kishore_Yakkala_138.doc"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/Kishore_Yakkala_138.doc"
   		},
 		{
 	"email":"lp.dataninja@gmail.com",
@@ -148,7 +148,7 @@ b = [{
 	"Prof_ID": 139, 
 	"Profile": "www.google.com",
 	"Profile_Score": "83%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Ladle_Patel_139.pdf"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/Ladle_Patel_139.pdf"
   		},
 		{
 	"email":"mohit_516@yahoo.co.in",
@@ -159,7 +159,7 @@ b = [{
 	"Prof_ID": 141, 
 	"Profile": "www.google.com",
 	"Profile_Score": "78%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Mohit_Kundra_141.pdf"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/Mohit_Kundra_141.pdf"
   		},
 
 	
@@ -171,7 +171,7 @@ b = [{
 	"Prof_ID": 145, 
 	"Profile": "www.google.com",
 	"Profile_Score": "76%",
- 	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/T_Sharan+_Kumar_145.pdf"
+ 	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/T_Sharan+_Kumar_145.pdf"
   		},
 	
 	    {"email":"bheemeshr@gmail.com",
@@ -182,7 +182,7 @@ b = [{
 	"Prof_ID": 148, 
 	"Profile": "www.google.com",
 	"Profile_Score": "76%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/BBheemeswarReddy_148.docx"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/BBheemeswarReddy_148.docx"
   		},
 		{"email":"srilathabandari30@gmail.com",
 	"Exp":"Lead Data Engineer - GGK Technologies",
@@ -192,7 +192,7 @@ b = [{
 	"Prof_ID": 149, 
 	"Profile": "www.google.com",
 	"Profile_Score": "70%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Srilatha_Bandari_149.doc"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/Srilatha_Bandari_149.doc"
   		},
 		{"email":"sekh09@gmail.com",
 	"Exp":"Lead Data Engineer - Real Page India",
@@ -202,7 +202,7 @@ b = [{
 	"Prof_ID": 150, 
 	"Profile": "www.google.com",
 	"Profile_Score": "81%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Pulagam_Sudha_Sekhar_150.docx"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/Pulagam_Sudha_Sekhar_150.docx"
   		},
 	    {"email":" dhiranjamana27@gmail.com",
 	"Exp":"Data Engineer - Tech aspect solutions",
@@ -212,7 +212,7 @@ b = [{
 	"Prof_ID": 151, 
 	"Profile": "www.google.com",
 	"Profile_Score": "89%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Dhiran_Jamana_151.pdf"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/Dhiran_Jamana_151.pdf"
   		},
 		{"email":"Nishanth.Nayakanti@csscorp.com",
 	"Exp":"Lead Data Engineer",
@@ -222,7 +222,7 @@ b = [{
 	"Prof_ID": 152, 
 	"Profile": "www.google.com",
 	"Profile_Score": "87%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Nishanth_Nayakanti_152.pptx"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/Nishanth_Nayakanti_152.pptx"
   		},
 		{"email":"puneet.reddy@csscorp.com",
 	"Exp":"Lead Data Engineer",
@@ -232,7 +232,7 @@ b = [{
 	"Prof_ID": 153, 
 	"Profile": "www.google.com",
 	"Profile_Score": "89%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Puneet_Reddy_153.pptx"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/Puneet_Reddy_153.pptx"
   		},{"email":"shalaj.vibhore@csscorp.com",
 	"Exp":"Data Scientist",
 	"Int_Stage": "Selected", 
@@ -241,7 +241,7 @@ b = [{
 	"Prof_ID": 154, 
 	"Profile": "www.google.com",
 	"Profile_Score": "87%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Shalaj_Vibhore_154.pptx"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/Shalaj_Vibhore_154.pptx"
   		},
 		{"email":"sakya.maiti@csscorp.com",
 	"Exp":"Data Scientist",
@@ -251,7 +251,7 @@ b = [{
 	"Prof_ID": 155, 
 	"Profile": "www.google.com",
 	"Profile_Score": "72%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Sakya_Maiti_155.pptx"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/Sakya_Maiti_155.pptx"
   		}
 	    ]
 },
@@ -267,7 +267,7 @@ b = [{
 	"Prof_ID": 156, 
 	"Profile": "www.google.com",
 	"Profile_Score": "80%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/ChetnaMahajan_156.pdf"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/ChetnaMahajan_156.pdf"
   		},
 		{"email": "sikindar247@gmail.com ",
 	"Exp":"Frontend Developer - Nineleaps Technologies",
@@ -277,7 +277,7 @@ b = [{
 	"Prof_ID": 157, 
 	"Profile": "www.google.com",
 	"Profile_Score": "85%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Sikindar_157.pdf"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/Sikindar_157.pdf"
   		},
 		{"email": "jayendra.sharan@gmail.com",
 	"Exp":"Senior Software Engineer - MangoApps",
@@ -287,7 +287,7 @@ b = [{
 	"Prof_ID": 158, 
 	"Profile": "www.google.com",
 	"Profile_Score": "87%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Jayendra_158.pdf"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/Jayendra_158.pdf"
   		},
 		{"email": "biswaspoulima36@gmail.com",
 	"Exp":"Frontend Developer - TATA CONSULTANCY SERVICES",
@@ -297,7 +297,7 @@ b = [{
 	"Prof_ID": 159, 
 	"Profile": "www.google.com",
 	"Profile_Score": "90%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Poulima_159.pdf"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/Poulima_159.pdf"
   		},
 		{"email": "Praveen.gupta1507@gmail.com ",
 	"Exp":"Software Developer - Natural Softwares Pvt Ltd Jaipur",
@@ -307,7 +307,7 @@ b = [{
 	"Prof_ID": 160, 
 	"Profile": "www.google.com",
 	"Profile_Score": "75%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Praveen_160.pdf"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/Praveen_160.pdf"
   		},
 		{"email": "rajshekarus@gmail.com ",
 	"Exp":"UI Developer - Target Corporation",
@@ -317,7 +317,7 @@ b = [{
 	"Prof_ID": 161, 
 	"Profile": "www.google.com",
 	"Profile_Score": "70%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Raja_161.pdf"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/Raja_161.pdf"
   		},
 		{"email": "sjain2393@icloud.com ",
 	"Exp":"Junior Developer - ElivoTech Solution Pvt Ltd",
@@ -327,7 +327,7 @@ b = [{
 	"Prof_ID": 162, 
 	"Profile": "www.google.com",
 	"Profile_Score": "75%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Shubham_162.pdf"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/Shubham_162.pdf"
   		},
 		{"email": "tejaswinisankuru@gmail.com",
 	"Exp":"Systems Engineer - Tata Consultancy Services ",
@@ -337,7 +337,7 @@ b = [{
 	"Prof_ID": 163, 
 	"Profile": "www.google.com",
 	"Profile_Score": "78%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/Teja_163.pdf"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/Teja_163.pdf"
   		}]
 		},
 	{
@@ -352,7 +352,7 @@ b = [{
 	"Prof_ID": 164, 
 	"Profile": "www.google.com",
 	"Profile_Score": "84%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/ChetnaMahajan_156.pdf"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/ChetnaMahajan_156.pdf"
   		},
 		{"email": "kchoudhary274@gmail.com",
 	"Exp":"Software Developer - Zensar Technology",
@@ -362,7 +362,7 @@ b = [{
 	"Prof_ID": 165, 
 	"Profile": "www.google.com",
 	"Profile_Score": "82%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/ChetnaMahajan_156.pdf"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/ChetnaMahajan_156.pdf"
   		},
 		{"email": "lakshmi.priyanka195@gmail.com",
 	"Exp":"Senior Member Technical - ADP Private Limited",
@@ -372,7 +372,7 @@ b = [{
 	"Prof_ID": 166, 
 	"Profile": "www.google.com",
 	"Profile_Score": "89%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/ChetnaMahajan_156.pdf"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/ChetnaMahajan_156.pdf"
   		},
 		{"email": "mahendersokhal@gmail.com",
 	"Exp":"Senior Member Technical - Oracle India Pvt Ltd",
@@ -382,7 +382,7 @@ b = [{
 	"Prof_ID": 167, 
 	"Profile": "www.google.com",
 	"Profile_Score": "81%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/ChetnaMahajan_156.pdf"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/ChetnaMahajan_156.pdf"
   		},
 		{"email": "pramodgsable@gmail.com",
 	"Exp":"Software Engineer - Bhanix Finance And Investment Limited",
@@ -392,7 +392,7 @@ b = [{
 	"Prof_ID": 168, 
 	"Profile": "www.google.com",
 	"Profile_Score": "84%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/ChetnaMahajan_156.pdf"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/ChetnaMahajan_156.pdf"
   		},
 		{"email": "sravanamv3@gmail.com ",
 	"Exp":"Senior Software Engineer - Qualcomm India",
@@ -402,7 +402,7 @@ b = [{
 	"Prof_ID": 169, 
 	"Profile": "www.google.com",
 	"Profile_Score": "85%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/ChetnaMahajan_156.pdf"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/ChetnaMahajan_156.pdf"
   		},
 		{"email": "cheekoti.vamc@gmail.com ",
 	"Exp":"Senior Software Engineer - Accenture",
@@ -412,7 +412,7 @@ b = [{
 	"Prof_ID": 170, 
 	"Profile": "www.google.com",
 	"Profile_Score": "85%",
-	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket6/profile/ChetnaMahajan_156.pdf"
+	"Attachments":"https://s3.amazonaws.com/jsa-angular6-bucket8/profile/ChetnaMahajan_156.pdf"
   		}]
 		}
 ] 
